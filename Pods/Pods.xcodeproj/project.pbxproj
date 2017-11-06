@@ -1,0 +1,2749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0052E4742A749D26B8BD2FD3637F18F8 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = F5027D20D4FFC765970A2D8E7DECA719 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		005D45E19707244E8E52F9A5BB100D83 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DCF97E6819159D212C95209C0AA059 /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02728E920053500A80BB8587FFEF50C0 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECAEEC983A0E3CAF119A94F17DBC4DA /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		052EF988EC8454378F11F14B9B9CE608 /* UIImage+BetterAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 646846F0ABC0339CB39A1E4FF0D00906 /* UIImage+BetterAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06373756925ECF63E7A73239CD0AF3C4 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = C20A186C594DD86F0C59B68D36910F64 /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0921F7A022E91ECC7563A2E63CF3E9D0 /* checkmark-round.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3D45BA403E347B8768B42CC6BE834A /* checkmark-round.png */; };
+		173E765EA2A4C3E42E8F4FD7768F93D7 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6247647B0AA5C8C42F43ABCB137335E3 /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		177A9F601181A54C30D54C796A63E608 /* Pods-MedViewerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7BED2C5FE8595E639F4844989F7584 /* Pods-MedViewerTests-dummy.m */; };
+		18213E7823D3F8E7D48ECA3CF3AA107E /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1ECC02DDA872A5786D0028207996E5 /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A39649B7D1D10020CA2CA175B09ADBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		1A9353BBCDC5942037CAB34D0C6CAB33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		1B76F6399B22E9E52E4BA97AEC3E6101 /* SSBouncyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B64841161AAC787ED0B507A7D0EBCD /* SSBouncyButton-dummy.m */; };
+		1B78E9F744777F41287D6801CF48C37B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = A961693B5DFA6CC86EB50E68E07B31DF /* mztools.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1DA441CA61D819FACC17799C4786E4AB /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA7B5732C7D1CF65D9162D081A4C027 /* NSMutableArray+SWUtilityButtons.m */; };
+		1E75F675A8E9FA56B0E12C9D2C957DF9 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ED0692CBB7E2B4AFAAA55E45248EE /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E7646A4FBC638F6EC07A8324C274860 /* VENTouchLockPasscodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D96F0F48306B2DC2D320A35B51BBCF /* VENTouchLockPasscodeView.xib */; };
+		20B8F563FA8478F78A169C7FEC65E63B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE1F1FBA09B3B15EB0960BA7F7CBBE1 /* QuartzCore.framework */; };
+		20BAB5D59DF7BD045F079334AAA64ACA /* FCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 283C520D6DE792FE8A5BA47C4390399E /* FCAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22E2A43C2F36545738D67938716FC9A6 /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A9A31C000F0500FE04CBEFA5191C85 /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24CCCD005B2E399C7043F7EA841CC71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		256298E947E880C3BC5AB09ED79278EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		268371E57A77732769C46E316BB76970 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A2BC2AB814F54DD3B0693D7D28200F /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2708E550BBB5C092C30063F306997607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		279AE3A6EC757617BABE0F6D1C83F73E /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = F9B6C397731257E001D751BA739B6F50 /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		319E6BCD2C45A1C0602E2F28D31CCFF5 /* UIImage+BetterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5499E074711E37573255EAF461398063 /* UIImage+BetterAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		376E1209B7153876AF842A843A8143E7 /* VENTouchLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 790967AC753FB3EB163914CE40DA03A0 /* VENTouchLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		377185DD0EE549DD1BC4173EB53C9270 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7206D909654B5E1ADC6EB9FD7B192D16 /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3B48019E3561947F3CBCE444AB6B5BCC /* VENTouchLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F30D4C727B92F12D89255C5FEA6274A /* VENTouchLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F603127A3412B0CC8C5B492420F1606 /* UIImage+BetterAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10090C112D0E1FA16101991C56A7E1C3 /* UIImage+BetterAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D7EBB15BEE0963C3248D9D399E0DB8 /* SSBouncyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 382E0C4490D12CE4E6107DC5423A6ED8 /* SSBouncyButton.m */; };
+		412F6F73B6797B637B205A82E409E30B /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E36414228E1ADD54ED3F3C33A578B /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A99E12BF7EE67B5D1EE56C5622D720 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDA12008FA91539F006971342B666A2 /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		458CEAF6E8C165D66041C1480637FF5E /* SSKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF09F29E76733D3CB5AB796CF54DB2E2 /* SSKeychain.bundle */; };
+		499BE12245A168535DCE8DD41297450F /* SWTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA448394D46F62215ABE62217CCA497 /* SWTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F1FBAD9D290F2A6DE24F55D3EB946B2 /* UIColor-Hex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F36F9CE7106FB355C4731552831C37 /* UIColor-Hex-dummy.m */; };
+		5136AC026E142AC49F10CA2D7AB389A5 /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = B89C1FF26BC0A8A07A7DF8425794D296 /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		518A7348D349718B58417FAB16B088CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		55FCC84A9CEBF60954F594052CF40204 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 4787D07E32A98E060CBFC2B138F8A2B5 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		58B95D5C4CC33707E87EF880DE69D267 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = C91AFDA55CA4FBA3D31EBC857BA83BCE /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		591CBD5677508CD02E8216E2BC3A4A82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		60AEC5C555979B4180A161A69BF6D973 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B8071664D84FF9B62A3143D1318BB3 /* SSZipArchive-dummy.m */; };
+		63053907A5DCBEB57A406EF741C01878 /* BRYSerialAnimationQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0787FC51D7394FC418431FFBA19224 /* BRYSerialAnimationQueue.framework */; };
+		636D766CA2C15AD8A340626A70AB2B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		66D2932D608762790E736326E73F9FFB /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D4464341BF6EC5EC080ACBBB80779261 /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		687A7E81FDCC00954603FB8852AC791D /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0A171171D3323514E456DE18E93184 /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69699571E97DE9E51BD44FD6FCDB36AD /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F6E4EDC38E9D6A09095557F1D51E6D /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6F036EDB3C6F4D77407B93978853D66A /* FCAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 372F412596B1249179192BDDDFDD9F22 /* FCAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F50A0A786948888AD9ED7C593570D59 /* VENTouchLock.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34D819D73F13401ADF986B858AFE94 /* VENTouchLock.m */; };
+		7682C2D3F903BE9BB707B9159B4A8330 /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A4A65CA67B48B65024762377EF9D93 /* mztools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7878144ED75B52B4385198C5E241C57F /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA7CC9DE0720F26CACC90858CF70992 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BAA0656BE66B714A976084FA168449B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE523BDB542F54DDD30C3FFDEF33E5C /* UIKit.framework */; };
+		7C1A1E1318A0A467F145567822019329 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE0C08595FDB5124190EAD2214E4160 /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C548FE59CFBEE5B45C0915A292156CD /* alert-round.png in Resources */ = {isa = PBXBuildFile; fileRef = B9240C73435CBF9F3CC67485DEC6EA6F /* alert-round.png */; };
+		7FD60AEE46DF3D9F6D3D72142B772839 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = D159E082A500512FB3BB5360CE3FE912 /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		80BAA464BF64E9492E3703DC78E6A4DD /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444DCC1E2C4A152DE51AA2CA2AC1A87 /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81DF54F7E9A97274D1D35A7BDE512F9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE523BDB542F54DDD30C3FFDEF33E5C /* UIKit.framework */; };
+		81FDE4EA4DC25EC9FC353192F89C243D /* VENTouchLockSplashViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE2D52A24BFC1EBDFEE4C94BAFEB58E /* VENTouchLockSplashViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82072F7D1FE373984A1D5B55309244DE /* SSKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA57D4D335013A4BCA4BBB153C5AADFC /* SSKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82CD4C9C56D28B0A759AC4E8250B903F /* FCAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF318DA89110B7EF096B0C665D18876F /* FCAlertView.bundle */; };
+		853E81B04030F233455ED3BDE73FD4A4 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 15D6593BE6423528A41DFA2C68DED1FD /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8AECEA8F009B2035A1AD4589BE00EA2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		8C41E0D7874F1D364BE893B17EEE3E45 /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F7A99B5F54F00237A1593960BB8FB4 /* SWTableViewCell-dummy.m */; };
+		8CAE2E96BE9DAEDF420FB328CB2C30F4 /* FCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4EFE9B3EE1CCF104B48A209A40B9FB /* FCAlertView.m */; };
+		8EAD8DC87EFE35C7E714FBD936B98EDA /* FCAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6985B2A3BF61CBA28C84FB32BEE0A3 /* FCAlertView-dummy.m */; };
+		8F8E21C663819F240FAD3527DBE5E1F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		9030AFC35ABBD585B69D01F353909CB6 /* SSKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447E5075A071521309AE960B2AFFF9C /* SSKeychain.framework */; };
+		911A50D8FFDEA031A330B41795083C79 /* SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 823112009E544FF625931D97BBBC3391 /* SSKeychain-dummy.m */; };
+		91B3F2274D3435A98426396DF3DC03C7 /* Pods-MedViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9A588F9F97B675F0605D8879DDF85 /* Pods-MedViewer-dummy.m */; };
+		942969A5FF5C301B58FA7F234B9D15CA /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D43F4F8AC4B25F4C780E777FE67DBCC /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94CE3F4403639BED831EC1A46A15F09B /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A779AC005F6EF0DDF9CB5DC1FB0143 /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94D80C5D6AEE647184695BCB0A0DA1C9 /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCA434568EB42B482A38E1A422BEC55 /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		966760E8003C0B9E3E3E3DBBFF57AD80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		997B9B150E2B5B094A42310F2CDA2FE3 /* entropy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E364877BDD849B6E33B1A980FE411B9 /* entropy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BCE454D256AB50B8BDCE93BA5B920A9 /* VENTouchLockPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F44CD781A557141413C21E9B84E1A229 /* VENTouchLockPasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E28E75DEE86D635C8411637E8C5645B /* VENTouchLockSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528DC265C2BB1B77F7EC1DC69FC9A57D /* VENTouchLockSplashViewController.m */; };
+		9E914F7D77A0D46EEE3DDEFB89FC65FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE523BDB542F54DDD30C3FFDEF33E5C /* UIKit.framework */; };
+		9F620C60C4374EA549491C0A0D70CF04 /* UIColor-Hex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E241289ADD93638E880C21F433F5644 /* UIColor-Hex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35FFF8775E5736CB18803C37BC57BCB /* BRYSerialAnimationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EB54808F65C9C12EA22F618288BEE95F /* BRYSerialAnimationQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A793FEC70C43239B5EC2F18DAC5B73CB /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C66534AB5003E10F5EE3E7E03A98C0F /* SWUtilityButtonView.m */; };
+		AD23C66E1CC3E66593456EB14AC6043F /* Pods-MedViewerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AA6BD37BB052062D0A3F7B450B3A45 /* Pods-MedViewerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADCB8151ADE0BED299CF79B1779EAECE /* UIViewController+VENTouchLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7AC6F2D9D9611B70A440DE18EF0214 /* UIViewController+VENTouchLock.m */; };
+		AFCF07E28D61BBA36B5B98E30AA475BC /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B668336E84F0870D6B21C78AC8A8F33 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B2549E25ECE4EA0E05B918D1C46F1057 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = E67D5A78F1442346AB4E8DF9486DD5A3 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B74ABCCB2254EDC1638369A95A5D8E8B /* BRYSerialAnimationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C00192BF7BD5003B321AC6F50BBC742 /* BRYSerialAnimationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75AFEA906958160756F94D8F7A67341 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7473400E2C14161D8D502701908CFE /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8C8DD3F21FEFED08C11601F73F0F7F9 /* VENTouchLockPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 597FD55B095E9A031C15876673A8B65A /* VENTouchLockPasscodeView.m */; };
+		B93DB392403581C4BE5D634F0975A70F /* VENTouchLockAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B91D4B25C101C573159229D0415A1B /* VENTouchLockAppearance.m */; };
+		BACC32A420A4EE0A6065B42387E18CBE /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED61A7D77183BE030B3E7C0968C46F3 /* LocalAuthentication.framework */; };
+		BBF2929431022F48753F6A9A22BED5D6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587E181C64CAE271A8DB395829979D52 /* Security.framework */; };
+		BC50548294BA8DCE60086C010514180C /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE3F8C49E26C6BED4A10D013BD1365E /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC9E003F097DC867F6438C62D3152794 /* Pods-MedViewerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF3B19F7D3EAA9D04FF673A90056672 /* Pods-MedViewerUITests-dummy.m */; };
+		BCC7C24669217074B9DB42BB6916C433 /* Pods-MedViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F382E8F346A759D1D87B7CBF425F123C /* Pods-MedViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD9EEC16E255156B97D9BF20D60A0F6F /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 33EE24D4AC6CF35DCAC100FD76E7B49F /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BEB79A02669E156AFCA4D6923B2DBFA1 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = F3127FA1A7693A400A08A6B8C722996A /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1FFE2AF4C6580B45148E762EA625CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */; };
+		C580CE0B38EF528F5C4D8467C8E0273F /* VENTouchLockCreatePasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C8263383179BA03AEC91BCF4A687DD /* VENTouchLockCreatePasscodeViewController.m */; };
+		C6569E9DA1AE4398E5036ED915FCA6EB /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 789B7E955F10D5A2B18452236C1650B5 /* entropy.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8F994B05558D4A259978E6784A79C0B /* close-round.png in Resources */ = {isa = PBXBuildFile; fileRef = C14324FE04FAE4468B6C23C70D1A1D41 /* close-round.png */; };
+		C96FC9F06FE204C6004AE55D7FDF069B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = B602CB045ABF1D1320C69FF78B6E4C52 /* star.png */; };
+		C97F2CC4DD7E99610E5FE20935797794 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = 829EBF596DEEDBCD3B0EDEF1139EA050 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAF60489D6FC546B9CDF659BECBB6E90 /* UIViewController+VENTouchLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0843F377CD8A986CC9E18661F0DB08 /* UIViewController+VENTouchLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC6311CD7CD7EC5AA5EDF3270A8A02CF /* aes_via_ace.h in Headers */ = {isa = PBXBuildFile; fileRef = 33567EEE71AEDD83FE0A50777D603050 /* aes_via_ace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCBE18618384CBB70413553E190CD3ED /* VENTouchLockPasscodeCharacterView.h in Headers */ = {isa = PBXBuildFile; fileRef = E23C981CB5C7B1FF487D067D8B44559F /* VENTouchLockPasscodeCharacterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCEABB8C71198C50B78492F41578638C /* Pods-MedViewerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25299A59798405FE7D6CAD36D94D3112 /* Pods-MedViewerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD5F3862028D12F31A8012E79BF2175D /* UIImage+BetterAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3BCA042D1B6AA0A33DD5BA882560DB /* UIImage+BetterAdditions-dummy.m */; };
+		CEE12926EFB0BC6AB03771942A7C2DB0 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA0CFD2FF98E74CBE6DA563CC421217 /* heart.png */; };
+		CFA044B1444CB3515A89931CBB12EFB0 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 89308A3B9E98BB41D758F87386FB597E /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D559BF47C9F76152009832B5E0977E79 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 854020191DBDA5EA67F67B29BF35503F /* SWTableViewCell.m */; };
+		D7B775DBBDF098583E897BFA8CBE819D /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC16AD2D3962C7315557BF8A7DDD66B /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DACF8E30BA50B6C6ECD5FB49A8EDABA9 /* VENTouchLockEnterPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 285F365FBE97472546A5E235DE68E4C9 /* VENTouchLockEnterPasscodeViewController.m */; };
+		DEBF28950452FB01E0C3D52FD5AF4BFA /* VENTouchLockAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = F4627E88CF240ADF9BC57CAFCB8D134B /* VENTouchLockAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39B8D7A4AF9FE6145DDA7701E3FD2FA /* BRYSerialAnimationQueue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1348621F617BB16E75F1BDC8EC6A3A5B /* BRYSerialAnimationQueue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E40CA5AB3FAE247DBE4FC06E111403E1 /* VENTouchLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FD4647C3894F8EDB277FD41FBF1924 /* VENTouchLock-dummy.m */; };
+		E44A8C582A385E9605B537016211023E /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = D0CAC0638E71CFE1982A69E17FD8209B /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E58C34EC8D89D771D20524115D436E6D /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1F5A3FA31E9C1D76E4C2A36B880445 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5CC238971E7CB85828D5F97EC09A0D4 /* SSBouncyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D48AD41BA00F2FC2DF8D75247CD436 /* SSBouncyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F7C8AE3AD753D6D4221EBDB03BFC66 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B5F398CC052E792915F7F70A2B1407 /* SWLongPressGestureRecognizer.m */; };
+		E87F0B9581433E825F0C562163D428EA /* UIColor_Hex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B71E679A3EF5B49B66C0401DD30BFF9 /* UIColor_Hex.framework */; };
+		EB555EFD18DF65A492E67A4F151B850C /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6434A270EB5703B884EF5948BA674EA /* SWCellScrollView.m */; };
+		ED7F57AE25FC6EBAB4BE43CF7A17AACB /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = E498E710679B5C983F6EB174844EF631 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		EE692B8966CD0F96405445DBE66E6CE2 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB98132E20DEA7D8CFDEAA2E21619D5 /* UIColor+Hex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F2D1D3797096FA12F5B928AF102E2547 /* VENTouchLockEnterPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B305AA085C9E8BFCE0983BCA7CA07E0 /* VENTouchLockEnterPasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2D47234811D05444BB3883D22CC90F9 /* VENTouchLockCreatePasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0471887630F17BE36B8EF5E20C023E4F /* VENTouchLockCreatePasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F856C7D1BFA6903F770315BAA4D9BF53 /* VENTouchLockPasscodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C41A95F2A1F067F0578917882A06AE40 /* VENTouchLockPasscodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D433CA471973BC21DA610BC14BCEEB /* BRYSerialAnimationQueue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F094281E8E453E77A4C9E1997B3F42 /* BRYSerialAnimationQueue-dummy.m */; };
+		F92966E8A4A71E8F9FB9A090A5AA8869 /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 102EA9CC8BD3983EA7A0D825ADE53B9A /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC3A98D8A37E75B935FA46DC6DC76C64 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = CA96854129CE3D2AC88E1034DFC919B4 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC6A14C79A53447FD45A59B6BB6433D7 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = A82ED2C01289420B3310331B6DAFF995 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCD5B3D718640CACFFA04AC09E5801BD /* SSBouncyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C838785596AD52C19D854904BC6B7168 /* SSBouncyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE1DC9B65DC80784C505A1F090ED553A /* UIImage_BetterAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE0B08A77F58F9C89D767419395837C /* UIImage_BetterAdditions.framework */; };
+		FF0EAD0C3F1176093EA66207F1AF6EF5 /* VENTouchLockPasscodeCharacterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 336BBA234436CA56F9003BF5682CA98A /* VENTouchLockPasscodeCharacterView.m */; };
+		FF17E81BD1B5CA35E9585E0D9BE8C940 /* VENTouchLockPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DA5175EE4E42ED4558EC4CF90E79A /* VENTouchLockPasscodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EE770E0AF2B09FC6F4ADEC9BDE21F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7543BDB9E56C2F0BB072E38D99608E42;
+			remoteInfo = SSKeychain;
+		};
+		32932EDC3FAA8184B9EDDDBBCA1BCF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1613271357771814C71601D90B787D94;
+			remoteInfo = "FCAlertView-FCAlertView";
+		};
+		50693A92FBBE4562F30C0AF5DAC555FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005028F4A259C5603C6AFA698F9225D6;
+			remoteInfo = BRYSerialAnimationQueue;
+		};
+		556145A1D459839E013390DA08B762FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7543BDB9E56C2F0BB072E38D99608E42;
+			remoteInfo = SSKeychain;
+		};
+		64C79917ED472A59DC14F32314781986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1ABE20DAA23760FBF0359740C1F0B9;
+			remoteInfo = FCAlertView;
+		};
+		7EB7345309D5BB2C3CCF7E63C7FFFD41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116B1BCD19F634218B3D0987EEBBA0F4;
+			remoteInfo = "UIImage+BetterAdditions";
+		};
+		98391788AD4D248EEB2578E72D495705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6DCAA6C59F4F6651D6B22A491E8337B;
+			remoteInfo = "UIColor-Hex";
+		};
+		C6461AB4FA3CEED9A7FA73836D94BDD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6DBB03A144EDD5520471500FFF355F2;
+			remoteInfo = SWTableViewCell;
+		};
+		D3FDBFAF16C8C2A4FE68FCF535BE9E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8331500FD7C386012D43CCDA5BA762C4;
+			remoteInfo = SSZipArchive;
+		};
+		D68A63EAFA0926932CBAD2A062812DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116B1BCD19F634218B3D0987EEBBA0F4;
+			remoteInfo = "UIImage+BetterAdditions";
+		};
+		E0433A926DCF6F0C8AAD36933665D310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005028F4A259C5603C6AFA698F9225D6;
+			remoteInfo = BRYSerialAnimationQueue;
+		};
+		E297D725C04DF5401F3E1993093294D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6DCAA6C59F4F6651D6B22A491E8337B;
+			remoteInfo = "UIColor-Hex";
+		};
+		F1A4C3DF893B94656957131DFA79310A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7ABA27192B1AD5E94780959A5A35B3D;
+			remoteInfo = VENTouchLock;
+		};
+		F8447E22BD140387DF9163D8613AC4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 157C37FDB196CFEC77511B13AF3908C6;
+			remoteInfo = SSBouncyButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0200FD452DAC8AC49C4E43B46F78BE18 /* VENTouchLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VENTouchLock.modulemap; sourceTree = "<group>"; };
+		0447E5075A071521309AE960B2AFFF9C /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0471887630F17BE36B8EF5E20C023E4F /* VENTouchLockCreatePasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockCreatePasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockCreatePasscodeViewController.h; sourceTree = "<group>"; };
+		0484BA7B162F569F3753AF07B5E25459 /* SSKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSKeychain.framework; path = SSKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0843F377CD8A986CC9E18661F0DB08 /* UIViewController+VENTouchLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+VENTouchLock.h"; path = "VENTouchLock/Categories/UIViewController+VENTouchLock.h"; sourceTree = "<group>"; };
+		0A3ED0692CBB7E2B4AFAAA55E45248EE /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/aes/brg_endian.h; sourceTree = "<group>"; };
+		0C00192BF7BD5003B321AC6F50BBC742 /* BRYSerialAnimationQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRYSerialAnimationQueue.h; path = Classes/BRYSerialAnimationQueue.h; sourceTree = "<group>"; };
+		0EA448394D46F62215ABE62217CCA497 /* SWTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		0F3D45BA403E347B8768B42CC6BE834A /* checkmark-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark-round.png"; path = "FCAlertView/Assets/checkmark-round.png"; sourceTree = "<group>"; };
+		0FA2A9DECC1008E6746A36FEB7EDB6CE /* FCAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-prefix.pch"; sourceTree = "<group>"; };
+		0FD804C53966BC300B4F4172AF294941 /* Pods_MedViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedViewerTests.framework; path = "Pods-MedViewerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10090C112D0E1FA16101991C56A7E1C3 /* UIImage+BetterAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions-umbrella.h"; sourceTree = "<group>"; };
+		102EA9CC8BD3983EA7A0D825ADE53B9A /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
+		10DB4DAF8565B637A5A61CAC760C621D /* UIImage+BetterAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIImage+BetterAdditions.modulemap"; sourceTree = "<group>"; };
+		11B91D4B25C101C573159229D0415A1B /* VENTouchLockAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockAppearance.m; path = VENTouchLock/Models/VENTouchLockAppearance.m; sourceTree = "<group>"; };
+		1348621F617BB16E75F1BDC8EC6A3A5B /* BRYSerialAnimationQueue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYSerialAnimationQueue-umbrella.h"; sourceTree = "<group>"; };
+		13C27232F4969B843E8E9F43748256BA /* UIImage+BetterAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions-prefix.pch"; sourceTree = "<group>"; };
+		15D6593BE6423528A41DFA2C68DED1FD /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwd2key.c; path = SSZipArchive/aes/pwd2key.c; sourceTree = "<group>"; };
+		1C0787FC51D7394FC418431FFBA19224 /* BRYSerialAnimationQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BRYSerialAnimationQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C993486AD05FB7F586FE894E8BF3FAE /* SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		1E241289ADD93638E880C21F433F5644 /* UIColor-Hex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-Hex-umbrella.h"; sourceTree = "<group>"; };
+		1E8740807FBB84B294F0D037744680BB /* Pods-MedViewerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedViewerUITests-resources.sh"; sourceTree = "<group>"; };
+		1F724FAC2FFA2FBECF2E0A8835AFC33F /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		23378CADB81614594FB0A6CEA6DC72FC /* Pods_MedViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedViewer.framework; path = "Pods-MedViewer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2505298AA7B121E12A5C68C2B52614CC /* Pods-MedViewerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedViewerTests-frameworks.sh"; sourceTree = "<group>"; };
+		25299A59798405FE7D6CAD36D94D3112 /* Pods-MedViewerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedViewerTests-umbrella.h"; sourceTree = "<group>"; };
+		283C520D6DE792FE8A5BA47C4390399E /* FCAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCAlertView.h; path = FCAlertView/Classes/FCAlertView.h; sourceTree = "<group>"; };
+		285AE3BFFEB4D32022EE76AD4A7F0E24 /* VENTouchLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VENTouchLock-prefix.pch"; sourceTree = "<group>"; };
+		285F365FBE97472546A5E235DE68E4C9 /* VENTouchLockEnterPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockEnterPasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockEnterPasscodeViewController.m; sourceTree = "<group>"; };
+		2A168758CCECF116AE0EBC0BC333A372 /* SSBouncyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSBouncyButton.framework; path = SSBouncyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8DA5175EE4E42ED4558EC4CF90E79A /* VENTouchLockPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockPasscodeViewController.m; sourceTree = "<group>"; };
+		2E5522ADE63A3F48F91291ECBC773AF1 /* UIColor-Hex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIColor-Hex.modulemap"; sourceTree = "<group>"; };
+		322F86B0229EDB68677B0D1DC5010EA3 /* SSBouncyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSBouncyButton-prefix.pch"; sourceTree = "<group>"; };
+		32B3E9830E6DEF17FFF3E16D5D27C3E3 /* VENTouchLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VENTouchLock.xcconfig; sourceTree = "<group>"; };
+		33567EEE71AEDD83FE0A50777D603050 /* aes_via_ace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_via_ace.h; path = SSZipArchive/aes/aes_via_ace.h; sourceTree = "<group>"; };
+		336BBA234436CA56F9003BF5682CA98A /* VENTouchLockPasscodeCharacterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeCharacterView.m; path = VENTouchLock/Views/VENTouchLockPasscodeCharacterView.m; sourceTree = "<group>"; };
+		33EE24D4AC6CF35DCAC100FD76E7B49F /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = SSZipArchive/aes/hmac.c; sourceTree = "<group>"; };
+		34D71103B6D2E83E1AF85F252ADBC5FA /* SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSKeychain.xcconfig; sourceTree = "<group>"; };
+		372F412596B1249179192BDDDFDD9F22 /* FCAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-umbrella.h"; sourceTree = "<group>"; };
+		382E0C4490D12CE4E6107DC5423A6ED8 /* SSBouncyButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSBouncyButton.m; path = SSBouncyButton/SSBouncyButton.m; sourceTree = "<group>"; };
+		3C66534AB5003E10F5EE3E7E03A98C0F /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		3E364877BDD849B6E33B1A980FE411B9 /* entropy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entropy.h; path = SSZipArchive/aes/entropy.h; sourceTree = "<group>"; };
+		3EB98132E20DEA7D8CFDEAA2E21619D5 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
+		3F1F5A3FA31E9C1D76E4C2A36B880445 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/aes/fileenc.h; sourceTree = "<group>"; };
+		400D9C77E46F0F1A495BF0BDB343C833 /* Pods-MedViewerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedViewerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		411F98AB08E5A7B4EE7439DCC20E322A /* Pods-MedViewerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MedViewerUITests.modulemap"; sourceTree = "<group>"; };
+		4256AE0C3145244BEC0EC425C25D8B49 /* BRYSerialAnimationQueue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRYSerialAnimationQueue-prefix.pch"; sourceTree = "<group>"; };
+		4314CF9D63A0DEC30D1ABBB82FDB903E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4787D07E32A98E060CBFC2B138F8A2B5 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aescrypt.c; path = SSZipArchive/aes/aescrypt.c; sourceTree = "<group>"; };
+		495E64BF1E0786B708CC73D486DAB5FB /* SWTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWTableViewCell.modulemap; sourceTree = "<group>"; };
+		4DCA434568EB42B482A38E1A422BEC55 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		4F30D4C727B92F12D89255C5FEA6274A /* VENTouchLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VENTouchLock-umbrella.h"; sourceTree = "<group>"; };
+		50D48AD41BA00F2FC2DF8D75247CD436 /* SSBouncyButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSBouncyButton.h; path = SSBouncyButton/SSBouncyButton.h; sourceTree = "<group>"; };
+		528DC265C2BB1B77F7EC1DC69FC9A57D /* VENTouchLockSplashViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockSplashViewController.m; path = VENTouchLock/Controllers/VENTouchLockSplashViewController.m; sourceTree = "<group>"; };
+		5499E074711E37573255EAF461398063 /* UIImage+BetterAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterAdditions.m"; sourceTree = "<group>"; };
+		57D96F0F48306B2DC2D320A35B51BBCF /* VENTouchLockPasscodeView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VENTouchLockPasscodeView.xib; path = VENTouchLock/Views/VENTouchLockPasscodeView.xib; sourceTree = "<group>"; };
+		57F6E4EDC38E9D6A09095557F1D51E6D /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		587E181C64CAE271A8DB395829979D52 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		597FD55B095E9A031C15876673A8B65A /* VENTouchLockPasscodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeView.m; path = VENTouchLock/Views/VENTouchLockPasscodeView.m; sourceTree = "<group>"; };
+		5B668336E84F0870D6B21C78AC8A8F33 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		5BA0CFD2FF98E74CBE6DA563CC421217 /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = heart.png; path = FCAlertView/Assets/heart.png; sourceTree = "<group>"; };
+		5DA7CC9DE0720F26CACC90858CF70992 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/aes/aes.h; sourceTree = "<group>"; };
+		5EB8B24FC017CD97A281FE4558790F82 /* SSBouncyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SSBouncyButton.modulemap; sourceTree = "<group>"; };
+		61C28158106D6D5D37FB38913F487A0F /* Pods-MedViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		620FB61765CC31D9BD26C00181C0D84C /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		6247647B0AA5C8C42F43ABCB137335E3 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.c; path = SSZipArchive/aes/sha1.c; sourceTree = "<group>"; };
+		62C865D300F5573AB88C27DC5CFA6DD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AA6BD37BB052062D0A3F7B450B3A45 /* Pods-MedViewerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedViewerUITests-umbrella.h"; sourceTree = "<group>"; };
+		646846F0ABC0339CB39A1E4FF0D00906 /* UIImage+BetterAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+BetterAdditions.h"; sourceTree = "<group>"; };
+		663CDCA4D970F85B3960112E4FBE3D4B /* SSKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SSKeychain.modulemap; sourceTree = "<group>"; };
+		67F094281E8E453E77A4C9E1997B3F42 /* BRYSerialAnimationQueue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRYSerialAnimationQueue-dummy.m"; sourceTree = "<group>"; };
+		6AF3B19F7D3EAA9D04FF673A90056672 /* Pods-MedViewerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedViewerUITests-dummy.m"; sourceTree = "<group>"; };
+		6B71E679A3EF5B49B66C0401DD30BFF9 /* UIColor_Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C50A5BE0C1AEB7D72D54EC430CCA7B1 /* UIImage_BetterAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIImage_BetterAdditions.framework; path = "UIImage+BetterAdditions.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D43F4F8AC4B25F4C780E777FE67DBCC /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		6ECAEEC983A0E3CAF119A94F17DBC4DA /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/aes/sha1.h; sourceTree = "<group>"; };
+		6EF759F8753AC64D8D68BBF83FE51106 /* Pods-MedViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F7AC6F2D9D9611B70A440DE18EF0214 /* UIViewController+VENTouchLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+VENTouchLock.m"; path = "VENTouchLock/Categories/UIViewController+VENTouchLock.m"; sourceTree = "<group>"; };
+		6FA7B5732C7D1CF65D9162D081A4C027 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		7206D909654B5E1ADC6EB9FD7B192D16 /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		7444DCC1E2C4A152DE51AA2CA2AC1A87 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = Sources/SSKeychainQuery.m; sourceTree = "<group>"; };
+		77B64841161AAC787ED0B507A7D0EBCD /* SSBouncyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSBouncyButton-dummy.m"; sourceTree = "<group>"; };
+		77C5AC39845C1B1323FAFE67D8FE9566 /* Pods-MedViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedViewer-acknowledgements.plist"; sourceTree = "<group>"; };
+		789B7E955F10D5A2B18452236C1650B5 /* entropy.c */ = {isa = PBXFileReference; includeInIndex = 1; name = entropy.c; path = SSZipArchive/aes/entropy.c; sourceTree = "<group>"; };
+		790967AC753FB3EB163914CE40DA03A0 /* VENTouchLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLock.h; path = VENTouchLock/VENTouchLock.h; sourceTree = "<group>"; };
+		7C1ECC02DDA872A5786D0028207996E5 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		7C7FCF223615C7B1DE89B1663E26B676 /* Pods-MedViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D95F4E707D593179D15FBCE8FD8B551 /* BRYSerialAnimationQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BRYSerialAnimationQueue.framework; path = BRYSerialAnimationQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E5E05C7A2C6E32A0699D8963BCA623 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823112009E544FF625931D97BBBC3391 /* SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		829EBF596DEEDBCD3B0EDEF1139EA050 /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/aes/aestab.h; sourceTree = "<group>"; };
+		854020191DBDA5EA67F67B29BF35503F /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		86AB323C25FF5FC29C3F2DD5B030263C /* Pods-MedViewerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedViewerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		87BDDD0F083498D32AB129522D379748 /* UIImage+BetterAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage+BetterAdditions.xcconfig"; sourceTree = "<group>"; };
+		89308A3B9E98BB41D758F87386FB597E /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; name = prng.c; path = SSZipArchive/aes/prng.c; sourceTree = "<group>"; };
+		8AB9A588F9F97B675F0605D8879DDF85 /* Pods-MedViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedViewer-dummy.m"; sourceTree = "<group>"; };
+		8C7BED2C5FE8595E639F4844989F7584 /* Pods-MedViewerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedViewerTests-dummy.m"; sourceTree = "<group>"; };
+		8D0D9EBE363537BAC44245C67A1D901A /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
+		8E7473400E2C14161D8D502701908CFE /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
+		8ED61A7D77183BE030B3E7C0968C46F3 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		90A2BC2AB814F54DD3B0693D7D28200F /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = Sources/SSKeychain.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A9A31C000F0500FE04CBEFA5191C85 /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/aes/brg_types.h; sourceTree = "<group>"; };
+		95F3C6A6F3187514794BAD8EAAC8548B /* FCAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCAlertView.framework; path = FCAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A10170438AA58FEF92CBACEEFE4CEB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B305AA085C9E8BFCE0983BCA7CA07E0 /* VENTouchLockEnterPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockEnterPasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockEnterPasscodeViewController.h; sourceTree = "<group>"; };
+		9EBB99C048496B65ECA91B7FCE2A410F /* Pods-MedViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedViewer.release.xcconfig"; sourceTree = "<group>"; };
+		9F289CA01AD2098DF327F2356F770018 /* Pods-MedViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MedViewer.modulemap"; sourceTree = "<group>"; };
+		A01E36414228E1ADD54ED3F3C33A578B /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		A4A779AC005F6EF0DDF9CB5DC1FB0143 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/aes/hmac.h; sourceTree = "<group>"; };
+		A6434A270EB5703B884EF5948BA674EA /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		A6FD4647C3894F8EDB277FD41FBF1924 /* VENTouchLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VENTouchLock-dummy.m"; sourceTree = "<group>"; };
+		A82ED2C01289420B3310331B6DAFF995 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		A86C9386A7C953B8896108EBEC5D6381 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B8071664D84FF9B62A3143D1318BB3 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		A961693B5DFA6CC86EB50E68E07B31DF /* mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mztools.c; path = SSZipArchive/minizip/mztools.c; sourceTree = "<group>"; };
+		AAE0C08595FDB5124190EAD2214E4160 /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		ABE523BDB542F54DDD30C3FFDEF33E5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AED04912CC9D1342ED36FDAFAC50487E /* FCAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCAlertView.xcconfig; sourceTree = "<group>"; };
+		B38AF97927F9AEA5EEA675F73CFD7087 /* UIColor-Hex-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-Hex-prefix.pch"; sourceTree = "<group>"; };
+		B39C3C66CE92E86ED1445C5E884D79AF /* Pods-MedViewer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedViewer-resources.sh"; sourceTree = "<group>"; };
+		B602CB045ABF1D1320C69FF78B6E4C52 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = FCAlertView/Assets/star.png; sourceTree = "<group>"; };
+		B6DCF97E6819159D212C95209C0AA059 /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
+		B89C1FF26BC0A8A07A7DF8425794D296 /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/aes/pwd2key.h; sourceTree = "<group>"; };
+		B9240C73435CBF9F3CC67485DEC6EA6F /* alert-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alert-round.png"; path = "FCAlertView/Assets/alert-round.png"; sourceTree = "<group>"; };
+		B97CFECA96B6CDF191AB47452AE42E9C /* UIColor-Hex.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-Hex.xcconfig"; sourceTree = "<group>"; };
+		BBC16C3AD6915AD969CAE528DD049257 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC16AD2D3962C7315557BF8A7DDD66B /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = Sources/SSKeychainQuery.h; sourceTree = "<group>"; };
+		BFE3F8C49E26C6BED4A10D013BD1365E /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		C14324FE04FAE4468B6C23C70D1A1D41 /* close-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-round.png"; path = "FCAlertView/Assets/close-round.png"; sourceTree = "<group>"; };
+		C15DE840596817E03A378619ECCB6087 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16AEFBEBB92842F69F8C8171375D603 /* Pods-MedViewerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedViewerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1A48F8F9E90E3DC9291F4F527EF916F /* UIColor_Hex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex.framework; path = "UIColor-Hex.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20A186C594DD86F0C59B68D36910F64 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		C41A95F2A1F067F0578917882A06AE40 /* VENTouchLockPasscodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeView.h; path = VENTouchLock/Views/VENTouchLockPasscodeView.h; sourceTree = "<group>"; };
+		C5849ACFAB422BBBB2CC74C35292CC49 /* Pods-MedViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C838785596AD52C19D854904BC6B7168 /* SSBouncyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSBouncyButton-umbrella.h"; sourceTree = "<group>"; };
+		C91AFDA55CA4FBA3D31EBC857BA83BCE /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/aes/aesopt.h; sourceTree = "<group>"; };
+		C9C0C14657340162AE95B54A56016484 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA96854129CE3D2AC88E1034DFC919B4 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		CB6985B2A3BF61CBA28C84FB32BEE0A3 /* FCAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCAlertView-dummy.m"; sourceTree = "<group>"; };
+		CEE24A67FE148F8BF6E339C24319D8C3 /* Pods-MedViewerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedViewerTests-resources.sh"; sourceTree = "<group>"; };
+		CFA60886491D0430CA7C9971DD5D2702 /* Pods-MedViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedViewer-frameworks.sh"; sourceTree = "<group>"; };
+		D0CAC0638E71CFE1982A69E17FD8209B /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		D13707D9FC52BF6A086A384658903AFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D159E082A500512FB3BB5360CE3FE912 /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aeskey.c; path = SSZipArchive/aes/aeskey.c; sourceTree = "<group>"; };
+		D1BE72750F65BA0E412D29E79381EE75 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSZipArchive.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2D34702EF1BABD79CF2C279AF196489 /* Pods-MedViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		D4464341BF6EC5EC080ACBBB80779261 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = Sources/SSKeychain.h; sourceTree = "<group>"; };
+		D53F9A6D03ED440893B3CA0466755941 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D603D02E656D2E30D22CDD3C5864A846 /* Pods_MedViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedViewerUITests.framework; path = "Pods-MedViewerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3BCA042D1B6AA0A33DD5BA882560DB /* UIImage+BetterAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BetterAdditions-dummy.m"; sourceTree = "<group>"; };
+		DDE1F1FBA09B3B15EB0960BA7F7CBBE1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DE60AC253C5419CAD1D98AF9F009EC35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF318DA89110B7EF096B0C665D18876F /* FCAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FCAlertView.bundle; path = FCAlertView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE0B08A77F58F9C89D767419395837C /* UIImage_BetterAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImage_BetterAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B5F398CC052E792915F7F70A2B1407 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		E107AEB7EC8D0D0A9B911B29F13DBC7B /* Pods-MedViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E23C981CB5C7B1FF487D067D8B44559F /* VENTouchLockPasscodeCharacterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeCharacterView.h; path = VENTouchLock/Views/VENTouchLockPasscodeCharacterView.h; sourceTree = "<group>"; };
+		E336AD9F9A10A0D615B36DADE673F7B1 /* Pods-MedViewerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedViewerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3895EFFA7E1BDBCB0C6155FAAB2BCD0 /* SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWTableViewCell.framework; path = SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E498E710679B5C983F6EB174844EF631 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		E4A4A65CA67B48B65024762377EF9D93 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = SSZipArchive/minizip/mztools.h; sourceTree = "<group>"; };
+		E66088FDB9A544C10B50FDCE343EFDBA /* BRYSerialAnimationQueue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRYSerialAnimationQueue.xcconfig; sourceTree = "<group>"; };
+		E67D5A78F1442346AB4E8DF9486DD5A3 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fileenc.c; path = SSZipArchive/aes/fileenc.c; sourceTree = "<group>"; };
+		E6D2214CE08C30EB5B7DE66CE98B06CB /* FCAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FCAlertView.modulemap; sourceTree = "<group>"; };
+		E8C8263383179BA03AEC91BCF4A687DD /* VENTouchLockCreatePasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockCreatePasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockCreatePasscodeViewController.m; sourceTree = "<group>"; };
+		E90FC8490C971C1D68043D550EA71B2B /* ResourceBundle-FCAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCAlertView-Info.plist"; sourceTree = "<group>"; };
+		EAD8BADD25DC90660C06DE4373CB27FC /* Pods-MedViewerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedViewerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB0A171171D3323514E456DE18E93184 /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/aes/prng.h; sourceTree = "<group>"; };
+		EB34D819D73F13401ADF986B858AFE94 /* VENTouchLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLock.m; path = VENTouchLock/VENTouchLock.m; sourceTree = "<group>"; };
+		EB54808F65C9C12EA22F618288BEE95F /* BRYSerialAnimationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRYSerialAnimationQueue.m; path = Classes/BRYSerialAnimationQueue.m; sourceTree = "<group>"; };
+		EC974F2F61D8BE450C3A7E4FFDAB7F8F /* BRYSerialAnimationQueue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BRYSerialAnimationQueue.modulemap; sourceTree = "<group>"; };
+		EDDA12008FA91539F006971342B666A2 /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		EE4EFE9B3EE1CCF104B48A209A40B9FB /* FCAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCAlertView.m; path = FCAlertView/Classes/FCAlertView.m; sourceTree = "<group>"; };
+		F3127FA1A7693A400A08A6B8C722996A /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		F382E8F346A759D1D87B7CBF425F123C /* Pods-MedViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedViewer-umbrella.h"; sourceTree = "<group>"; };
+		F44CD781A557141413C21E9B84E1A229 /* VENTouchLockPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockPasscodeViewController.h; sourceTree = "<group>"; };
+		F4627E88CF240ADF9BC57CAFCB8D134B /* VENTouchLockAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockAppearance.h; path = VENTouchLock/Models/VENTouchLockAppearance.h; sourceTree = "<group>"; };
+		F5027D20D4FFC765970A2D8E7DECA719 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		F6F7A99B5F54F00237A1593960BB8FB4 /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		F7DFE7EE58AB70FB561C3A6EFCBF75D2 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		F8F36F9CE7106FB355C4731552831C37 /* UIColor-Hex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Hex-dummy.m"; sourceTree = "<group>"; };
+		F9B6C397731257E001D751BA739B6F50 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aestab.c; path = SSZipArchive/aes/aestab.c; sourceTree = "<group>"; };
+		FA45EA37D1C5768DFA28514BDF4974E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA57D4D335013A4BCA4BBB153C5AADFC /* SSKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-umbrella.h"; sourceTree = "<group>"; };
+		FBE2D52A24BFC1EBDFEE4C94BAFEB58E /* VENTouchLockSplashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockSplashViewController.h; path = VENTouchLock/Controllers/VENTouchLockSplashViewController.h; sourceTree = "<group>"; };
+		FC1DFAFB71FAF22362BBEDDF37595488 /* SSBouncyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSBouncyButton.xcconfig; sourceTree = "<group>"; };
+		FD48E480564EE1EA1E6F8EB0F2A60551 /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
+		FF09F29E76733D3CB5AB796CF54DB2E2 /* SSKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SSKeychain.bundle; path = Support/SSKeychain.bundle; sourceTree = "<group>"; };
+		FF73DBCAACFA139E2C3B9A28ADDE851B /* Pods-MedViewerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MedViewerTests.modulemap"; sourceTree = "<group>"; };
+		FF75ABC6647576939933575A18CA22CA /* VENTouchLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VENTouchLock.framework; path = VENTouchLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1047C6535A86077A30CDE388D8404268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1371D49AF00AEAFEEF2883DCF36D10D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8E21C663819F240FAD3527DBE5E1F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216FBEC79BB288640B9AD2EC4C5A360C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9353BBCDC5942037CAB34D0C6CAB33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3156A64DA2679F794D5D6B917C86C199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				591CBD5677508CD02E8216E2BC3A4A82 /* Foundation.framework in Frameworks */,
+				BACC32A420A4EE0A6065B42387E18CBE /* LocalAuthentication.framework in Frameworks */,
+				9030AFC35ABBD585B69D01F353909CB6 /* SSKeychain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63915E640A9870F84E666DCCDC938F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2708E550BBB5C092C30063F306997607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6743D08A47B839B0456A5E1D6DE9BE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A39649B7D1D10020CA2CA175B09ADBC /* Foundation.framework in Frameworks */,
+				BBF2929431022F48753F6A9A22BED5D6 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8159CAB96A39E0836AAA814D7FFBD305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518A7348D349718B58417FAB16B088CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E98C025594A46E48BDD2214B3DAEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636D766CA2C15AD8A340626A70AB2B3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F0DD6D3E5725B2BB759158D422A4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CCCD005B2E399C7043F7EA841CC71E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAADC416BA09EC62C41F55CC81C0B26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AECEA8F009B2035A1AD4589BE00EA2A /* Foundation.framework in Frameworks */,
+				9E914F7D77A0D46EEE3DDEFB89FC65FB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34FCD386170FB4DCC3D933A0C55B32A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63053907A5DCBEB57A406EF741C01878 /* BRYSerialAnimationQueue.framework in Frameworks */,
+				966760E8003C0B9E3E3E3DBBFF57AD80 /* Foundation.framework in Frameworks */,
+				20B8F563FA8478F78A169C7FEC65E63B /* QuartzCore.framework in Frameworks */,
+				E87F0B9581433E825F0C562163D428EA /* UIColor_Hex.framework in Frameworks */,
+				FE1DC9B65DC80784C505A1F090ED553A /* UIImage_BetterAdditions.framework in Frameworks */,
+				7BAA0656BE66B714A976084FA168449B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F5E81F807C34E5D7F19BA73D75B7B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256298E947E880C3BC5AB09ED79278EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E060666A5C82689E3E369463CE709ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FFE2AF4C6580B45148E762EA625CBF /* Foundation.framework in Frameworks */,
+				81DF54F7E9A97274D1D35A7BDE512F9E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C9820AEAE4DA5E30375AB1D47F50E6 /* VENTouchLock */ = {
+			isa = PBXGroup;
+			children = (
+				0A0843F377CD8A986CC9E18661F0DB08 /* UIViewController+VENTouchLock.h */,
+				6F7AC6F2D9D9611B70A440DE18EF0214 /* UIViewController+VENTouchLock.m */,
+				790967AC753FB3EB163914CE40DA03A0 /* VENTouchLock.h */,
+				EB34D819D73F13401ADF986B858AFE94 /* VENTouchLock.m */,
+				F4627E88CF240ADF9BC57CAFCB8D134B /* VENTouchLockAppearance.h */,
+				11B91D4B25C101C573159229D0415A1B /* VENTouchLockAppearance.m */,
+				0471887630F17BE36B8EF5E20C023E4F /* VENTouchLockCreatePasscodeViewController.h */,
+				E8C8263383179BA03AEC91BCF4A687DD /* VENTouchLockCreatePasscodeViewController.m */,
+				9B305AA085C9E8BFCE0983BCA7CA07E0 /* VENTouchLockEnterPasscodeViewController.h */,
+				285F365FBE97472546A5E235DE68E4C9 /* VENTouchLockEnterPasscodeViewController.m */,
+				E23C981CB5C7B1FF487D067D8B44559F /* VENTouchLockPasscodeCharacterView.h */,
+				336BBA234436CA56F9003BF5682CA98A /* VENTouchLockPasscodeCharacterView.m */,
+				C41A95F2A1F067F0578917882A06AE40 /* VENTouchLockPasscodeView.h */,
+				597FD55B095E9A031C15876673A8B65A /* VENTouchLockPasscodeView.m */,
+				F44CD781A557141413C21E9B84E1A229 /* VENTouchLockPasscodeViewController.h */,
+				2C8DA5175EE4E42ED4558EC4CF90E79A /* VENTouchLockPasscodeViewController.m */,
+				FBE2D52A24BFC1EBDFEE4C94BAFEB58E /* VENTouchLockSplashViewController.h */,
+				528DC265C2BB1B77F7EC1DC69FC9A57D /* VENTouchLockSplashViewController.m */,
+				B193DB15E53AB5E85ADE6CE95D383F1A /* Resources */,
+				B9BAF601D5D6EADE33EA70F8BCDADA54 /* Support Files */,
+			);
+			name = VENTouchLock;
+			path = VENTouchLock;
+			sourceTree = "<group>";
+		};
+		0E44DE8D36DF5FA7CAB89F69C078E1C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC974F2F61D8BE450C3A7E4FFDAB7F8F /* BRYSerialAnimationQueue.modulemap */,
+				E66088FDB9A544C10B50FDCE343EFDBA /* BRYSerialAnimationQueue.xcconfig */,
+				67F094281E8E453E77A4C9E1997B3F42 /* BRYSerialAnimationQueue-dummy.m */,
+				4256AE0C3145244BEC0EC425C25D8B49 /* BRYSerialAnimationQueue-prefix.pch */,
+				1348621F617BB16E75F1BDC8EC6A3A5B /* BRYSerialAnimationQueue-umbrella.h */,
+				C15DE840596817E03A378619ECCB6087 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BRYSerialAnimationQueue";
+			sourceTree = "<group>";
+		};
+		1CF9D538F2235420516F2B0A52ABA0E0 /* BRYSerialAnimationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				0C00192BF7BD5003B321AC6F50BBC742 /* BRYSerialAnimationQueue.h */,
+				EB54808F65C9C12EA22F618288BEE95F /* BRYSerialAnimationQueue.m */,
+				0E44DE8D36DF5FA7CAB89F69C078E1C2 /* Support Files */,
+			);
+			name = BRYSerialAnimationQueue;
+			path = BRYSerialAnimationQueue;
+			sourceTree = "<group>";
+		};
+		1DB1DDEA4890F33C76CABCED08413905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C0787FC51D7394FC418431FFBA19224 /* BRYSerialAnimationQueue.framework */,
+				0447E5075A071521309AE960B2AFFF9C /* SSKeychain.framework */,
+				6B71E679A3EF5B49B66C0401DD30BFF9 /* UIColor_Hex.framework */,
+				DFE0B08A77F58F9C89D767419395837C /* UIImage_BetterAdditions.framework */,
+				4734AD741B98F0FBC3EA6A816EF18AC7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F135111B842467A45244A5C95D87BE1 /* UIColor-Hex */ = {
+			isa = PBXGroup;
+			children = (
+				8E7473400E2C14161D8D502701908CFE /* UIColor+Hex.h */,
+				3EB98132E20DEA7D8CFDEAA2E21619D5 /* UIColor+Hex.m */,
+				9039AFB17C3DA97DC867A08FCA37220D /* Support Files */,
+			);
+			name = "UIColor-Hex";
+			path = "UIColor-Hex";
+			sourceTree = "<group>";
+		};
+		31CD3DAE038B03187F6BC005FDBDEDCA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3AEC60B6A9DE501845D11B63BAE930B /* Pods-MedViewer */,
+				5DAC0387666A6A8C92415937C0C634C4 /* Pods-MedViewerTests */,
+				53B369C750B82D2F9ED9678311CFA5BA /* Pods-MedViewerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32F44E013121A65448471F2B10FD235E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA45EA37D1C5768DFA28514BDF4974E7 /* Info.plist */,
+				8D0D9EBE363537BAC44245C67A1D901A /* SSZipArchive.modulemap */,
+				1F724FAC2FFA2FBECF2E0A8835AFC33F /* SSZipArchive.xcconfig */,
+				A8B8071664D84FF9B62A3143D1318BB3 /* SSZipArchive-dummy.m */,
+				F7DFE7EE58AB70FB561C3A6EFCBF75D2 /* SSZipArchive-prefix.pch */,
+				102EA9CC8BD3983EA7A0D825ADE53B9A /* SSZipArchive-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		44B2B1C154D8740B74C43254BACCAB82 /* FCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				283C520D6DE792FE8A5BA47C4390399E /* FCAlertView.h */,
+				EE4EFE9B3EE1CCF104B48A209A40B9FB /* FCAlertView.m */,
+				D532CEBB16E680E1F85B3D96318A7950 /* Resources */,
+				522B8941B46D0253D2C3B571E65F0F08 /* Support Files */,
+			);
+			name = FCAlertView;
+			path = FCAlertView;
+			sourceTree = "<group>";
+		};
+		4734AD741B98F0FBC3EA6A816EF18AC7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D2955C1CC3D26E6EA062F6310D24C780 /* Foundation.framework */,
+				8ED61A7D77183BE030B3E7C0968C46F3 /* LocalAuthentication.framework */,
+				DDE1F1FBA09B3B15EB0960BA7F7CBBE1 /* QuartzCore.framework */,
+				587E181C64CAE271A8DB395829979D52 /* Security.framework */,
+				ABE523BDB542F54DDD30C3FFDEF33E5C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		522B8941B46D0253D2C3B571E65F0F08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2214CE08C30EB5B7DE66CE98B06CB /* FCAlertView.modulemap */,
+				AED04912CC9D1342ED36FDAFAC50487E /* FCAlertView.xcconfig */,
+				CB6985B2A3BF61CBA28C84FB32BEE0A3 /* FCAlertView-dummy.m */,
+				0FA2A9DECC1008E6746A36FEB7EDB6CE /* FCAlertView-prefix.pch */,
+				372F412596B1249179192BDDDFDD9F22 /* FCAlertView-umbrella.h */,
+				D53F9A6D03ED440893B3CA0466755941 /* Info.plist */,
+				E90FC8490C971C1D68043D550EA71B2B /* ResourceBundle-FCAlertView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FCAlertView";
+			sourceTree = "<group>";
+		};
+		53B369C750B82D2F9ED9678311CFA5BA /* Pods-MedViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE60AC253C5419CAD1D98AF9F009EC35 /* Info.plist */,
+				411F98AB08E5A7B4EE7439DCC20E322A /* Pods-MedViewerUITests.modulemap */,
+				EAD8BADD25DC90660C06DE4373CB27FC /* Pods-MedViewerUITests-acknowledgements.markdown */,
+				86AB323C25FF5FC29C3F2DD5B030263C /* Pods-MedViewerUITests-acknowledgements.plist */,
+				6AF3B19F7D3EAA9D04FF673A90056672 /* Pods-MedViewerUITests-dummy.m */,
+				400D9C77E46F0F1A495BF0BDB343C833 /* Pods-MedViewerUITests-frameworks.sh */,
+				1E8740807FBB84B294F0D037744680BB /* Pods-MedViewerUITests-resources.sh */,
+				63AA6BD37BB052062D0A3F7B450B3A45 /* Pods-MedViewerUITests-umbrella.h */,
+				C5849ACFAB422BBBB2CC74C35292CC49 /* Pods-MedViewerUITests.debug.xcconfig */,
+				6EF759F8753AC64D8D68BBF83FE51106 /* Pods-MedViewerUITests.release.xcconfig */,
+			);
+			name = "Pods-MedViewerUITests";
+			path = "Target Support Files/Pods-MedViewerUITests";
+			sourceTree = "<group>";
+		};
+		5DAC0387666A6A8C92415937C0C634C4 /* Pods-MedViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A86C9386A7C953B8896108EBEC5D6381 /* Info.plist */,
+				FF73DBCAACFA139E2C3B9A28ADDE851B /* Pods-MedViewerTests.modulemap */,
+				E336AD9F9A10A0D615B36DADE673F7B1 /* Pods-MedViewerTests-acknowledgements.markdown */,
+				C16AEFBEBB92842F69F8C8171375D603 /* Pods-MedViewerTests-acknowledgements.plist */,
+				8C7BED2C5FE8595E639F4844989F7584 /* Pods-MedViewerTests-dummy.m */,
+				2505298AA7B121E12A5C68C2B52614CC /* Pods-MedViewerTests-frameworks.sh */,
+				CEE24A67FE148F8BF6E339C24319D8C3 /* Pods-MedViewerTests-resources.sh */,
+				25299A59798405FE7D6CAD36D94D3112 /* Pods-MedViewerTests-umbrella.h */,
+				61C28158106D6D5D37FB38913F487A0F /* Pods-MedViewerTests.debug.xcconfig */,
+				7C7FCF223615C7B1DE89B1663E26B676 /* Pods-MedViewerTests.release.xcconfig */,
+			);
+			name = "Pods-MedViewerTests";
+			path = "Target Support Files/Pods-MedViewerTests";
+			sourceTree = "<group>";
+		};
+		6EA378ED2A19B86408EE22CD55AE5CC7 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7CC9DE0720F26CACC90858CF70992 /* aes.h */,
+				33567EEE71AEDD83FE0A50777D603050 /* aes_via_ace.h */,
+				4787D07E32A98E060CBFC2B138F8A2B5 /* aescrypt.c */,
+				D159E082A500512FB3BB5360CE3FE912 /* aeskey.c */,
+				C91AFDA55CA4FBA3D31EBC857BA83BCE /* aesopt.h */,
+				F9B6C397731257E001D751BA739B6F50 /* aestab.c */,
+				829EBF596DEEDBCD3B0EDEF1139EA050 /* aestab.h */,
+				0A3ED0692CBB7E2B4AFAAA55E45248EE /* brg_endian.h */,
+				95A9A31C000F0500FE04CBEFA5191C85 /* brg_types.h */,
+				CA96854129CE3D2AC88E1034DFC919B4 /* crypt.h */,
+				789B7E955F10D5A2B18452236C1650B5 /* entropy.c */,
+				3E364877BDD849B6E33B1A980FE411B9 /* entropy.h */,
+				E67D5A78F1442346AB4E8DF9486DD5A3 /* fileenc.c */,
+				3F1F5A3FA31E9C1D76E4C2A36B880445 /* fileenc.h */,
+				33EE24D4AC6CF35DCAC100FD76E7B49F /* hmac.c */,
+				A4A779AC005F6EF0DDF9CB5DC1FB0143 /* hmac.h */,
+				7206D909654B5E1ADC6EB9FD7B192D16 /* ioapi.c */,
+				A82ED2C01289420B3310331B6DAFF995 /* ioapi.h */,
+				A961693B5DFA6CC86EB50E68E07B31DF /* mztools.c */,
+				E4A4A65CA67B48B65024762377EF9D93 /* mztools.h */,
+				89308A3B9E98BB41D758F87386FB597E /* prng.c */,
+				EB0A171171D3323514E456DE18E93184 /* prng.h */,
+				15D6593BE6423528A41DFA2C68DED1FD /* pwd2key.c */,
+				B89C1FF26BC0A8A07A7DF8425794D296 /* pwd2key.h */,
+				6247647B0AA5C8C42F43ABCB137335E3 /* sha1.c */,
+				6ECAEEC983A0E3CAF119A94F17DBC4DA /* sha1.h */,
+				F5027D20D4FFC765970A2D8E7DECA719 /* SSZipArchive.h */,
+				57F6E4EDC38E9D6A09095557F1D51E6D /* SSZipArchive.m */,
+				F3127FA1A7693A400A08A6B8C722996A /* SSZipCommon.h */,
+				D0CAC0638E71CFE1982A69E17FD8209B /* unzip.c */,
+				EDDA12008FA91539F006971342B666A2 /* unzip.h */,
+				5B668336E84F0870D6B21C78AC8A8F33 /* zip.c */,
+				BFE3F8C49E26C6BED4A10D013BD1365E /* zip.h */,
+				6D43F4F8AC4B25F4C780E777FE67DBCC /* ZipArchive.h */,
+				32F44E013121A65448471F2B10FD235E /* Support Files */,
+			);
+			name = SSZipArchive;
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		78485739C23400E4159ACF40FDD02655 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7C1ECC02DDA872A5786D0028207996E5 /* NSMutableArray+SWUtilityButtons.h */,
+				6FA7B5732C7D1CF65D9162D081A4C027 /* NSMutableArray+SWUtilityButtons.m */,
+				AAE0C08595FDB5124190EAD2214E4160 /* SWCellScrollView.h */,
+				A6434A270EB5703B884EF5948BA674EA /* SWCellScrollView.m */,
+				A01E36414228E1ADD54ED3F3C33A578B /* SWLongPressGestureRecognizer.h */,
+				E0B5F398CC052E792915F7F70A2B1407 /* SWLongPressGestureRecognizer.m */,
+				B6DCF97E6819159D212C95209C0AA059 /* SWTableViewCell.h */,
+				854020191DBDA5EA67F67B29BF35503F /* SWTableViewCell.m */,
+				4DCA434568EB42B482A38E1A422BEC55 /* SWUtilityButtonTapGestureRecognizer.h */,
+				E498E710679B5C983F6EB174844EF631 /* SWUtilityButtonTapGestureRecognizer.m */,
+				C20A186C594DD86F0C59B68D36910F64 /* SWUtilityButtonView.h */,
+				3C66534AB5003E10F5EE3E7E03A98C0F /* SWUtilityButtonView.m */,
+				8A1E466E7AD88F828545D820B7CC1764 /* Support Files */,
+			);
+			name = SWTableViewCell;
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1DB1DDEA4890F33C76CABCED08413905 /* Frameworks */,
+				863BCA5F8E8433F088B421A23D36E43C /* Pods */,
+				9C5070D9F813446415D38E1820843F7F /* Products */,
+				31CD3DAE038B03187F6BC005FDBDEDCA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84C9807FF29B345E58CE2C01D57DE286 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4314CF9D63A0DEC30D1ABBB82FDB903E /* Info.plist */,
+				663CDCA4D970F85B3960112E4FBE3D4B /* SSKeychain.modulemap */,
+				34D71103B6D2E83E1AF85F252ADBC5FA /* SSKeychain.xcconfig */,
+				823112009E544FF625931D97BBBC3391 /* SSKeychain-dummy.m */,
+				1C993486AD05FB7F586FE894E8BF3FAE /* SSKeychain-prefix.pch */,
+				FA57D4D335013A4BCA4BBB153C5AADFC /* SSKeychain-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSKeychain";
+			sourceTree = "<group>";
+		};
+		863BCA5F8E8433F088B421A23D36E43C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CF9D538F2235420516F2B0A52ABA0E0 /* BRYSerialAnimationQueue */,
+				44B2B1C154D8740B74C43254BACCAB82 /* FCAlertView */,
+				C466A29F29B1CDC4429FA2321AC41369 /* SSBouncyButton */,
+				8FE0C19FBB26B65CEB6F92591C70B51A /* SSKeychain */,
+				6EA378ED2A19B86408EE22CD55AE5CC7 /* SSZipArchive */,
+				78485739C23400E4159ACF40FDD02655 /* SWTableViewCell */,
+				1F135111B842467A45244A5C95D87BE1 /* UIColor-Hex */,
+				B0C676E2534B9F04B448F17FF7788901 /* UIImage+BetterAdditions */,
+				09C9820AEAE4DA5E30375AB1D47F50E6 /* VENTouchLock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A1E466E7AD88F828545D820B7CC1764 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C0C14657340162AE95B54A56016484 /* Info.plist */,
+				495E64BF1E0786B708CC73D486DAB5FB /* SWTableViewCell.modulemap */,
+				FD48E480564EE1EA1E6F8EB0F2A60551 /* SWTableViewCell.xcconfig */,
+				F6F7A99B5F54F00237A1593960BB8FB4 /* SWTableViewCell-dummy.m */,
+				620FB61765CC31D9BD26C00181C0D84C /* SWTableViewCell-prefix.pch */,
+				0EA448394D46F62215ABE62217CCA497 /* SWTableViewCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWTableViewCell";
+			sourceTree = "<group>";
+		};
+		8FE0C19FBB26B65CEB6F92591C70B51A /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				D4464341BF6EC5EC080ACBBB80779261 /* SSKeychain.h */,
+				90A2BC2AB814F54DD3B0693D7D28200F /* SSKeychain.m */,
+				BCC16AD2D3962C7315557BF8A7DDD66B /* SSKeychainQuery.h */,
+				7444DCC1E2C4A152DE51AA2CA2AC1A87 /* SSKeychainQuery.m */,
+				EC1381E81AF8FC5B3204A131DD94A9D8 /* Resources */,
+				84C9807FF29B345E58CE2C01D57DE286 /* Support Files */,
+			);
+			name = SSKeychain;
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		9039AFB17C3DA97DC867A08FCA37220D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBC16C3AD6915AD969CAE528DD049257 /* Info.plist */,
+				2E5522ADE63A3F48F91291ECBC773AF1 /* UIColor-Hex.modulemap */,
+				B97CFECA96B6CDF191AB47452AE42E9C /* UIColor-Hex.xcconfig */,
+				F8F36F9CE7106FB355C4731552831C37 /* UIColor-Hex-dummy.m */,
+				B38AF97927F9AEA5EEA675F73CFD7087 /* UIColor-Hex-prefix.pch */,
+				1E241289ADD93638E880C21F433F5644 /* UIColor-Hex-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor-Hex";
+			sourceTree = "<group>";
+		};
+		9C5070D9F813446415D38E1820843F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D95F4E707D593179D15FBCE8FD8B551 /* BRYSerialAnimationQueue.framework */,
+				DF318DA89110B7EF096B0C665D18876F /* FCAlertView.bundle */,
+				95F3C6A6F3187514794BAD8EAAC8548B /* FCAlertView.framework */,
+				23378CADB81614594FB0A6CEA6DC72FC /* Pods_MedViewer.framework */,
+				0FD804C53966BC300B4F4172AF294941 /* Pods_MedViewerTests.framework */,
+				D603D02E656D2E30D22CDD3C5864A846 /* Pods_MedViewerUITests.framework */,
+				2A168758CCECF116AE0EBC0BC333A372 /* SSBouncyButton.framework */,
+				0484BA7B162F569F3753AF07B5E25459 /* SSKeychain.framework */,
+				D1BE72750F65BA0E412D29E79381EE75 /* SSZipArchive.framework */,
+				E3895EFFA7E1BDBCB0C6155FAAB2BCD0 /* SWTableViewCell.framework */,
+				C1A48F8F9E90E3DC9291F4F527EF916F /* UIColor_Hex.framework */,
+				6C50A5BE0C1AEB7D72D54EC430CCA7B1 /* UIImage_BetterAdditions.framework */,
+				FF75ABC6647576939933575A18CA22CA /* VENTouchLock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A01B7F3196BC6270DB11FEBA69BDADB2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C865D300F5573AB88C27DC5CFA6DD5 /* Info.plist */,
+				5EB8B24FC017CD97A281FE4558790F82 /* SSBouncyButton.modulemap */,
+				FC1DFAFB71FAF22362BBEDDF37595488 /* SSBouncyButton.xcconfig */,
+				77B64841161AAC787ED0B507A7D0EBCD /* SSBouncyButton-dummy.m */,
+				322F86B0229EDB68677B0D1DC5010EA3 /* SSBouncyButton-prefix.pch */,
+				C838785596AD52C19D854904BC6B7168 /* SSBouncyButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSBouncyButton";
+			sourceTree = "<group>";
+		};
+		A06B7E524DFF3CF0A47E0537952E00FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80E5E05C7A2C6E32A0699D8963BCA623 /* Info.plist */,
+				10DB4DAF8565B637A5A61CAC760C621D /* UIImage+BetterAdditions.modulemap */,
+				87BDDD0F083498D32AB129522D379748 /* UIImage+BetterAdditions.xcconfig */,
+				DD3BCA042D1B6AA0A33DD5BA882560DB /* UIImage+BetterAdditions-dummy.m */,
+				13C27232F4969B843E8E9F43748256BA /* UIImage+BetterAdditions-prefix.pch */,
+				10090C112D0E1FA16101991C56A7E1C3 /* UIImage+BetterAdditions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIImage+BetterAdditions";
+			sourceTree = "<group>";
+		};
+		B0C676E2534B9F04B448F17FF7788901 /* UIImage+BetterAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				646846F0ABC0339CB39A1E4FF0D00906 /* UIImage+BetterAdditions.h */,
+				5499E074711E37573255EAF461398063 /* UIImage+BetterAdditions.m */,
+				A06B7E524DFF3CF0A47E0537952E00FA /* Support Files */,
+			);
+			name = "UIImage+BetterAdditions";
+			path = "UIImage+BetterAdditions";
+			sourceTree = "<group>";
+		};
+		B193DB15E53AB5E85ADE6CE95D383F1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57D96F0F48306B2DC2D320A35B51BBCF /* VENTouchLockPasscodeView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B9BAF601D5D6EADE33EA70F8BCDADA54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A10170438AA58FEF92CBACEEFE4CEB9 /* Info.plist */,
+				0200FD452DAC8AC49C4E43B46F78BE18 /* VENTouchLock.modulemap */,
+				32B3E9830E6DEF17FFF3E16D5D27C3E3 /* VENTouchLock.xcconfig */,
+				A6FD4647C3894F8EDB277FD41FBF1924 /* VENTouchLock-dummy.m */,
+				285AE3BFFEB4D32022EE76AD4A7F0E24 /* VENTouchLock-prefix.pch */,
+				4F30D4C727B92F12D89255C5FEA6274A /* VENTouchLock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VENTouchLock";
+			sourceTree = "<group>";
+		};
+		C466A29F29B1CDC4429FA2321AC41369 /* SSBouncyButton */ = {
+			isa = PBXGroup;
+			children = (
+				50D48AD41BA00F2FC2DF8D75247CD436 /* SSBouncyButton.h */,
+				382E0C4490D12CE4E6107DC5423A6ED8 /* SSBouncyButton.m */,
+				A01B7F3196BC6270DB11FEBA69BDADB2 /* Support Files */,
+			);
+			name = SSBouncyButton;
+			path = SSBouncyButton;
+			sourceTree = "<group>";
+		};
+		D532CEBB16E680E1F85B3D96318A7950 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9240C73435CBF9F3CC67485DEC6EA6F /* alert-round.png */,
+				0F3D45BA403E347B8768B42CC6BE834A /* checkmark-round.png */,
+				C14324FE04FAE4468B6C23C70D1A1D41 /* close-round.png */,
+				5BA0CFD2FF98E74CBE6DA563CC421217 /* heart.png */,
+				B602CB045ABF1D1320C69FF78B6E4C52 /* star.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EC1381E81AF8FC5B3204A131DD94A9D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF09F29E76733D3CB5AB796CF54DB2E2 /* SSKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F3AEC60B6A9DE501845D11B63BAE930B /* Pods-MedViewer */ = {
+			isa = PBXGroup;
+			children = (
+				D13707D9FC52BF6A086A384658903AFF /* Info.plist */,
+				9F289CA01AD2098DF327F2356F770018 /* Pods-MedViewer.modulemap */,
+				E107AEB7EC8D0D0A9B911B29F13DBC7B /* Pods-MedViewer-acknowledgements.markdown */,
+				77C5AC39845C1B1323FAFE67D8FE9566 /* Pods-MedViewer-acknowledgements.plist */,
+				8AB9A588F9F97B675F0605D8879DDF85 /* Pods-MedViewer-dummy.m */,
+				CFA60886491D0430CA7C9971DD5D2702 /* Pods-MedViewer-frameworks.sh */,
+				B39C3C66CE92E86ED1445C5E884D79AF /* Pods-MedViewer-resources.sh */,
+				F382E8F346A759D1D87B7CBF425F123C /* Pods-MedViewer-umbrella.h */,
+				D2D34702EF1BABD79CF2C279AF196489 /* Pods-MedViewer.debug.xcconfig */,
+				9EBB99C048496B65ECA91B7FCE2A410F /* Pods-MedViewer.release.xcconfig */,
+			);
+			name = "Pods-MedViewer";
+			path = "Target Support Files/Pods-MedViewer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		116F00B206C096B6F74FA4F9A24BE06A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F603127A3412B0CC8C5B492420F1606 /* UIImage+BetterAdditions-umbrella.h in Headers */,
+				052EF988EC8454378F11F14B9B9CE608 /* UIImage+BetterAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CC077374C4E126EA6B786AF09293D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F036EDB3C6F4D77407B93978853D66A /* FCAlertView-umbrella.h in Headers */,
+				20BAB5D59DF7BD045F079334AAA64ACA /* FCAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29998063F23A84237D669AD11B627B09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD5B3D718640CACFFA04AC09E5801BD /* SSBouncyButton-umbrella.h in Headers */,
+				E5CC238971E7CB85828D5F97EC09A0D4 /* SSBouncyButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2CE1136957654EBAAA480F0CECDF1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC7C24669217074B9DB42BB6916C433 /* Pods-MedViewer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E819C6B6C0823E559750E85E6FEA7D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39B8D7A4AF9FE6145DDA7701E3FD2FA /* BRYSerialAnimationQueue-umbrella.h in Headers */,
+				B74ABCCB2254EDC1638369A95A5D8E8B /* BRYSerialAnimationQueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F96EF350F553C206B6F588AD99CCB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCEABB8C71198C50B78492F41578638C /* Pods-MedViewerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E1FAAD140C8C43FAEAEA478D25544D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18213E7823D3F8E7D48ECA3CF3AA107E /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				7C1A1E1318A0A467F145567822019329 /* SWCellScrollView.h in Headers */,
+				412F6F73B6797B637B205A82E409E30B /* SWLongPressGestureRecognizer.h in Headers */,
+				499BE12245A168535DCE8DD41297450F /* SWTableViewCell-umbrella.h in Headers */,
+				005D45E19707244E8E52F9A5BB100D83 /* SWTableViewCell.h in Headers */,
+				94D80C5D6AEE647184695BCB0A0DA1C9 /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				06373756925ECF63E7A73239CD0AF3C4 /* SWUtilityButtonView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6128C36E4C308E32B5565B96A3A6D352 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82072F7D1FE373984A1D5B55309244DE /* SSKeychain-umbrella.h in Headers */,
+				66D2932D608762790E736326E73F9FFB /* SSKeychain.h in Headers */,
+				D7B775DBBDF098583E897BFA8CBE819D /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA494E48F888F88EE3395DDFFCEDD47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF60489D6FC546B9CDF659BECBB6E90 /* UIViewController+VENTouchLock.h in Headers */,
+				3B48019E3561947F3CBCE444AB6B5BCC /* VENTouchLock-umbrella.h in Headers */,
+				376E1209B7153876AF842A843A8143E7 /* VENTouchLock.h in Headers */,
+				DEBF28950452FB01E0C3D52FD5AF4BFA /* VENTouchLockAppearance.h in Headers */,
+				F2D47234811D05444BB3883D22CC90F9 /* VENTouchLockCreatePasscodeViewController.h in Headers */,
+				F2D1D3797096FA12F5B928AF102E2547 /* VENTouchLockEnterPasscodeViewController.h in Headers */,
+				CCBE18618384CBB70413553E190CD3ED /* VENTouchLockPasscodeCharacterView.h in Headers */,
+				F856C7D1BFA6903F770315BAA4D9BF53 /* VENTouchLockPasscodeView.h in Headers */,
+				9BCE454D256AB50B8BDCE93BA5B920A9 /* VENTouchLockPasscodeViewController.h in Headers */,
+				81FDE4EA4DC25EC9FC353192F89C243D /* VENTouchLockSplashViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE4BCB05233CE8D6383C3303E0B1736 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD23C66E1CC3E66593456EB14AC6043F /* Pods-MedViewerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A559753522D10D8DB8DB020E6AD0BB83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75AFEA906958160756F94D8F7A67341 /* UIColor+Hex.h in Headers */,
+				9F620C60C4374EA549491C0A0D70CF04 /* UIColor-Hex-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D974B9E4A83C833E05D3150FA6DD53D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7878144ED75B52B4385198C5E241C57F /* aes.h in Headers */,
+				CC6311CD7CD7EC5AA5EDF3270A8A02CF /* aes_via_ace.h in Headers */,
+				58B95D5C4CC33707E87EF880DE69D267 /* aesopt.h in Headers */,
+				C97F2CC4DD7E99610E5FE20935797794 /* aestab.h in Headers */,
+				1E75F675A8E9FA56B0E12C9D2C957DF9 /* brg_endian.h in Headers */,
+				22E2A43C2F36545738D67938716FC9A6 /* brg_types.h in Headers */,
+				FC3A98D8A37E75B935FA46DC6DC76C64 /* crypt.h in Headers */,
+				997B9B150E2B5B094A42310F2CDA2FE3 /* entropy.h in Headers */,
+				E58C34EC8D89D771D20524115D436E6D /* fileenc.h in Headers */,
+				94CE3F4403639BED831EC1A46A15F09B /* hmac.h in Headers */,
+				FC6A14C79A53447FD45A59B6BB6433D7 /* ioapi.h in Headers */,
+				7682C2D3F903BE9BB707B9159B4A8330 /* mztools.h in Headers */,
+				687A7E81FDCC00954603FB8852AC791D /* prng.h in Headers */,
+				5136AC026E142AC49F10CA2D7AB389A5 /* pwd2key.h in Headers */,
+				02728E920053500A80BB8587FFEF50C0 /* sha1.h in Headers */,
+				F92966E8A4A71E8F9FB9A090A5AA8869 /* SSZipArchive-umbrella.h in Headers */,
+				0052E4742A749D26B8BD2FD3637F18F8 /* SSZipArchive.h in Headers */,
+				BEB79A02669E156AFCA4D6923B2DBFA1 /* SSZipCommon.h in Headers */,
+				43A99E12BF7EE67B5D1EE56C5622D720 /* unzip.h in Headers */,
+				BC50548294BA8DCE60086C010514180C /* zip.h in Headers */,
+				942969A5FF5C301B58FA7F234B9D15CA /* ZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		005028F4A259C5603C6AFA698F9225D6 /* BRYSerialAnimationQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87076A783EEA8733C5C7BF5B73842725 /* Build configuration list for PBXNativeTarget "BRYSerialAnimationQueue" */;
+			buildPhases = (
+				BCF77B65D3399EA1ADB0A82F41192481 /* Sources */,
+				E060666A5C82689E3E369463CE709ED7 /* Frameworks */,
+				3E819C6B6C0823E559750E85E6FEA7D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRYSerialAnimationQueue;
+			productName = BRYSerialAnimationQueue;
+			productReference = 7D95F4E707D593179D15FBCE8FD8B551 /* BRYSerialAnimationQueue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		116B1BCD19F634218B3D0987EEBBA0F4 /* UIImage+BetterAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3A86864605C5E08855DA684CF41069 /* Build configuration list for PBXNativeTarget "UIImage+BetterAdditions" */;
+			buildPhases = (
+				1DF1CDDC95A414CAAD4A28B6B0968381 /* Sources */,
+				AAADC416BA09EC62C41F55CC81C0B26C /* Frameworks */,
+				116F00B206C096B6F74FA4F9A24BE06A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImage+BetterAdditions";
+			productName = "UIImage+BetterAdditions";
+			productReference = 6C50A5BE0C1AEB7D72D54EC430CCA7B1 /* UIImage_BetterAdditions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		157C37FDB196CFEC77511B13AF3908C6 /* SSBouncyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5424C02B4A339924F58B1B2F2CB7BCF3 /* Build configuration list for PBXNativeTarget "SSBouncyButton" */;
+			buildPhases = (
+				82A5752285B4AB7E1369371735663B1A /* Sources */,
+				C34FCD386170FB4DCC3D933A0C55B32A /* Frameworks */,
+				29998063F23A84237D669AD11B627B09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ECAA5F2D2D2FCB0FC44BD524CBAAF70 /* PBXTargetDependency */,
+				0A242D486601D00B49BD18DF49CA319F /* PBXTargetDependency */,
+				2964AAB15438A9B81AA45E54032A763C /* PBXTargetDependency */,
+			);
+			name = SSBouncyButton;
+			productName = SSBouncyButton;
+			productReference = 2A168758CCECF116AE0EBC0BC333A372 /* SSBouncyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1613271357771814C71601D90B787D94 /* FCAlertView-FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E82A1DE997D99C0DF2CECEF19D52746 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */;
+			buildPhases = (
+				D36415FC0EF378A99093F211F254C4A3 /* Sources */,
+				1047C6535A86077A30CDE388D8404268 /* Frameworks */,
+				519D8BF34584C829B7275E0542B21053 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCAlertView-FCAlertView";
+			productName = "FCAlertView-FCAlertView";
+			productReference = DF318DA89110B7EF096B0C665D18876F /* FCAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		498D96C7F8F181B3FBAFAF37C27A264C /* Pods-MedViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD997BBF1A283D63BD0D1733E344E7B /* Build configuration list for PBXNativeTarget "Pods-MedViewerTests" */;
+			buildPhases = (
+				73D6DC35A0EC30373D97C53D7C442C50 /* Sources */,
+				92F0DD6D3E5725B2BB759158D422A4EB /* Frameworks */,
+				45F96EF350F553C206B6F588AD99CCB4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MedViewerTests";
+			productName = "Pods-MedViewerTests";
+			productReference = 0FD804C53966BC300B4F4172AF294941 /* Pods_MedViewerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D125D4E37BB130C181C19205233DD03 /* Pods-MedViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96811B335D040EA7E404AF4A0B29818 /* Build configuration list for PBXNativeTarget "Pods-MedViewer" */;
+			buildPhases = (
+				DF29D01F5A191D1426E3A09B8835031A /* Sources */,
+				D1F5E81F807C34E5D7F19BA73D75B7B5 /* Frameworks */,
+				2A2CE1136957654EBAAA480F0CECDF1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB92855F803D0330DA9EAACB8FBAFDE /* PBXTargetDependency */,
+				BD2DDB56A472A6A1A872112091D30B38 /* PBXTargetDependency */,
+				FC0F3E84AA78DD617845B383625F13E8 /* PBXTargetDependency */,
+				0F28FB42A63618D2D584D9B866A784C4 /* PBXTargetDependency */,
+				049DAE66F9A2683D9582DD807C17C92F /* PBXTargetDependency */,
+				FE6BDBB37DE9420471BEF3FA01490376 /* PBXTargetDependency */,
+				76C8E7487C4CA9D6424B48922E2489E3 /* PBXTargetDependency */,
+				9F6D810DCA550AAD895432887F595C24 /* PBXTargetDependency */,
+				ADA0DF149607305ED8C6856BB054C082 /* PBXTargetDependency */,
+			);
+			name = "Pods-MedViewer";
+			productName = "Pods-MedViewer";
+			productReference = 23378CADB81614594FB0A6CEA6DC72FC /* Pods_MedViewer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7543BDB9E56C2F0BB072E38D99608E42 /* SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6280EFF04647E056B531E565A54792B1 /* Build configuration list for PBXNativeTarget "SSKeychain" */;
+			buildPhases = (
+				8E4EDE6161C7CB1EC0A063FC9507271E /* Sources */,
+				6743D08A47B839B0456A5E1D6DE9BE61 /* Frameworks */,
+				6128C36E4C308E32B5565B96A3A6D352 /* Headers */,
+				938EB0DFA78B2310EB4BEE90A2E96E77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKeychain;
+			productName = SSKeychain;
+			productReference = 0484BA7B162F569F3753AF07B5E25459 /* SSKeychain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8331500FD7C386012D43CCDA5BA762C4 /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B19F7665A631A3E66FDDEAB6BBC76E /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				ED1E6A37AE814EF3E98377F78BE495BB /* Sources */,
+				1371D49AF00AEAFEEF2883DCF36D10D2 /* Frameworks */,
+				D974B9E4A83C833E05D3150FA6DD53D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = D1BE72750F65BA0E412D29E79381EE75 /* SSZipArchive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9741F517CEE0CB5F4C012D9E36A269BD /* Pods-MedViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBFFD9F01E4E77DFF7D84B02890DF86 /* Build configuration list for PBXNativeTarget "Pods-MedViewerUITests" */;
+			buildPhases = (
+				925352E03499CE41AAD2656D133F5DA6 /* Sources */,
+				63915E640A9870F84E666DCCDC938F20 /* Frameworks */,
+				6CE4BCB05233CE8D6383C3303E0B1736 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MedViewerUITests";
+			productName = "Pods-MedViewerUITests";
+			productReference = D603D02E656D2E30D22CDD3C5864A846 /* Pods_MedViewerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7ABA27192B1AD5E94780959A5A35B3D /* VENTouchLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A151872634200E8C3135DECF30E50D /* Build configuration list for PBXNativeTarget "VENTouchLock" */;
+			buildPhases = (
+				6953096E732A3FA85E04609848C34208 /* Sources */,
+				3156A64DA2679F794D5D6B917C86C199 /* Frameworks */,
+				6AA494E48F888F88EE3395DDFFCEDD47 /* Headers */,
+				99BD6D8479A454354DE317154539CE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CDDA173A8411778CA01A59C073816C1 /* PBXTargetDependency */,
+			);
+			name = VENTouchLock;
+			productName = VENTouchLock;
+			productReference = FF75ABC6647576939933575A18CA22CA /* VENTouchLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6DBB03A144EDD5520471500FFF355F2 /* SWTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4C37855C8687E93478599A229C8339 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildPhases = (
+				D76547AF88F9BCEA62742F0399ED8500 /* Sources */,
+				92E98C025594A46E48BDD2214B3DAEA9 /* Frameworks */,
+				50E1FAAD140C8C43FAEAEA478D25544D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTableViewCell;
+			productName = SWTableViewCell;
+			productReference = E3895EFFA7E1BDBCB0C6155FAAB2BCD0 /* SWTableViewCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6DCAA6C59F4F6651D6B22A491E8337B /* UIColor-Hex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E513CCA17B5B663703C8432072B055C6 /* Build configuration list for PBXNativeTarget "UIColor-Hex" */;
+			buildPhases = (
+				321DA30287E8735B3C96442E044119B8 /* Sources */,
+				216FBEC79BB288640B9AD2EC4C5A360C /* Frameworks */,
+				A559753522D10D8DB8DB020E6AD0BB83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColor-Hex";
+			productName = "UIColor-Hex";
+			productReference = C1A48F8F9E90E3DC9291F4F527EF916F /* UIColor_Hex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF1ABE20DAA23760FBF0359740C1F0B9 /* FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA6C0585D1B3396EA76721ED9ABF898 /* Build configuration list for PBXNativeTarget "FCAlertView" */;
+			buildPhases = (
+				B3EE5904AD57CEBB6A3EABDD17E5F980 /* Sources */,
+				8159CAB96A39E0836AAA814D7FFBD305 /* Frameworks */,
+				9EFDE054B823A3EDE57E82668B162C3F /* Resources */,
+				13CC077374C4E126EA6B786AF09293D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E37634C12DE0AFB113AE9BB570E06D2 /* PBXTargetDependency */,
+			);
+			name = FCAlertView;
+			productName = FCAlertView;
+			productReference = 95F3C6A6F3187514794BAD8EAAC8548B /* FCAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9C5070D9F813446415D38E1820843F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				005028F4A259C5603C6AFA698F9225D6 /* BRYSerialAnimationQueue */,
+				EF1ABE20DAA23760FBF0359740C1F0B9 /* FCAlertView */,
+				1613271357771814C71601D90B787D94 /* FCAlertView-FCAlertView */,
+				4D125D4E37BB130C181C19205233DD03 /* Pods-MedViewer */,
+				498D96C7F8F181B3FBAFAF37C27A264C /* Pods-MedViewerTests */,
+				9741F517CEE0CB5F4C012D9E36A269BD /* Pods-MedViewerUITests */,
+				157C37FDB196CFEC77511B13AF3908C6 /* SSBouncyButton */,
+				7543BDB9E56C2F0BB072E38D99608E42 /* SSKeychain */,
+				8331500FD7C386012D43CCDA5BA762C4 /* SSZipArchive */,
+				C6DBB03A144EDD5520471500FFF355F2 /* SWTableViewCell */,
+				C6DCAA6C59F4F6651D6B22A491E8337B /* UIColor-Hex */,
+				116B1BCD19F634218B3D0987EEBBA0F4 /* UIImage+BetterAdditions */,
+				B7ABA27192B1AD5E94780959A5A35B3D /* VENTouchLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		519D8BF34584C829B7275E0542B21053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C548FE59CFBEE5B45C0915A292156CD /* alert-round.png in Resources */,
+				0921F7A022E91ECC7563A2E63CF3E9D0 /* checkmark-round.png in Resources */,
+				C8F994B05558D4A259978E6784A79C0B /* close-round.png in Resources */,
+				CEE12926EFB0BC6AB03771942A7C2DB0 /* heart.png in Resources */,
+				C96FC9F06FE204C6004AE55D7FDF069B /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		938EB0DFA78B2310EB4BEE90A2E96E77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458CEAF6E8C165D66041C1480637FF5E /* SSKeychain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BD6D8479A454354DE317154539CE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7646A4FBC638F6EC07A8324C274860 /* VENTouchLockPasscodeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFDE054B823A3EDE57E82668B162C3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CD4C9C56D28B0A759AC4E8250B903F /* FCAlertView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF1CDDC95A414CAAD4A28B6B0968381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5F3862028D12F31A8012E79BF2175D /* UIImage+BetterAdditions-dummy.m in Sources */,
+				319E6BCD2C45A1C0602E2F28D31CCFF5 /* UIImage+BetterAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321DA30287E8735B3C96442E044119B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE692B8966CD0F96405445DBE66E6CE2 /* UIColor+Hex.m in Sources */,
+				4F1FBAD9D290F2A6DE24F55D3EB946B2 /* UIColor-Hex-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6953096E732A3FA85E04609848C34208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCB8151ADE0BED299CF79B1779EAECE /* UIViewController+VENTouchLock.m in Sources */,
+				E40CA5AB3FAE247DBE4FC06E111403E1 /* VENTouchLock-dummy.m in Sources */,
+				6F50A0A786948888AD9ED7C593570D59 /* VENTouchLock.m in Sources */,
+				B93DB392403581C4BE5D634F0975A70F /* VENTouchLockAppearance.m in Sources */,
+				C580CE0B38EF528F5C4D8467C8E0273F /* VENTouchLockCreatePasscodeViewController.m in Sources */,
+				DACF8E30BA50B6C6ECD5FB49A8EDABA9 /* VENTouchLockEnterPasscodeViewController.m in Sources */,
+				FF0EAD0C3F1176093EA66207F1AF6EF5 /* VENTouchLockPasscodeCharacterView.m in Sources */,
+				B8C8DD3F21FEFED08C11601F73F0F7F9 /* VENTouchLockPasscodeView.m in Sources */,
+				FF17E81BD1B5CA35E9585E0D9BE8C940 /* VENTouchLockPasscodeViewController.m in Sources */,
+				9E28E75DEE86D635C8411637E8C5645B /* VENTouchLockSplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D6DC35A0EC30373D97C53D7C442C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177A9F601181A54C30D54C796A63E608 /* Pods-MedViewerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A5752285B4AB7E1369371735663B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B76F6399B22E9E52E4BA97AEC3E6101 /* SSBouncyButton-dummy.m in Sources */,
+				40D7EBB15BEE0963C3248D9D399E0DB8 /* SSBouncyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4EDE6161C7CB1EC0A063FC9507271E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911A50D8FFDEA031A330B41795083C79 /* SSKeychain-dummy.m in Sources */,
+				268371E57A77732769C46E316BB76970 /* SSKeychain.m in Sources */,
+				80BAA464BF64E9492E3703DC78E6A4DD /* SSKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925352E03499CE41AAD2656D133F5DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9E003F097DC867F6438C62D3152794 /* Pods-MedViewerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EE5904AD57CEBB6A3EABDD17E5F980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAD8DC87EFE35C7E714FBD936B98EDA /* FCAlertView-dummy.m in Sources */,
+				8CAE2E96BE9DAEDF420FB328CB2C30F4 /* FCAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF77B65D3399EA1ADB0A82F41192481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D433CA471973BC21DA610BC14BCEEB /* BRYSerialAnimationQueue-dummy.m in Sources */,
+				A35FFF8775E5736CB18803C37BC57BCB /* BRYSerialAnimationQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36415FC0EF378A99093F211F254C4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76547AF88F9BCEA62742F0399ED8500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA441CA61D819FACC17799C4786E4AB /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				EB555EFD18DF65A492E67A4F151B850C /* SWCellScrollView.m in Sources */,
+				E6F7C8AE3AD753D6D4221EBDB03BFC66 /* SWLongPressGestureRecognizer.m in Sources */,
+				8C41E0D7874F1D364BE893B17EEE3E45 /* SWTableViewCell-dummy.m in Sources */,
+				D559BF47C9F76152009832B5E0977E79 /* SWTableViewCell.m in Sources */,
+				ED7F57AE25FC6EBAB4BE43CF7A17AACB /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				A793FEC70C43239B5EC2F18DAC5B73CB /* SWUtilityButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF29D01F5A191D1426E3A09B8835031A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B3F2274D3435A98426396DF3DC03C7 /* Pods-MedViewer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1E6A37AE814EF3E98377F78BE495BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FCC84A9CEBF60954F594052CF40204 /* aescrypt.c in Sources */,
+				7FD60AEE46DF3D9F6D3D72142B772839 /* aeskey.c in Sources */,
+				279AE3A6EC757617BABE0F6D1C83F73E /* aestab.c in Sources */,
+				C6569E9DA1AE4398E5036ED915FCA6EB /* entropy.c in Sources */,
+				B2549E25ECE4EA0E05B918D1C46F1057 /* fileenc.c in Sources */,
+				BD9EEC16E255156B97D9BF20D60A0F6F /* hmac.c in Sources */,
+				377185DD0EE549DD1BC4173EB53C9270 /* ioapi.c in Sources */,
+				1B78E9F744777F41287D6801CF48C37B /* mztools.c in Sources */,
+				CFA044B1444CB3515A89931CBB12EFB0 /* prng.c in Sources */,
+				853E81B04030F233455ED3BDE73FD4A4 /* pwd2key.c in Sources */,
+				173E765EA2A4C3E42E8F4FD7768F93D7 /* sha1.c in Sources */,
+				60AEC5C555979B4180A161A69BF6D973 /* SSZipArchive-dummy.m in Sources */,
+				69699571E97DE9E51BD44FD6FCDB36AD /* SSZipArchive.m in Sources */,
+				E44A8C582A385E9605B537016211023E /* unzip.c in Sources */,
+				AFCF07E28D61BBA36B5B98E30AA475BC /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049DAE66F9A2683D9582DD807C17C92F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 8331500FD7C386012D43CCDA5BA762C4 /* SSZipArchive */;
+			targetProxy = D3FDBFAF16C8C2A4FE68FCF535BE9E7B /* PBXContainerItemProxy */;
+		};
+		0A242D486601D00B49BD18DF49CA319F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor-Hex";
+			target = C6DCAA6C59F4F6651D6B22A491E8337B /* UIColor-Hex */;
+			targetProxy = E297D725C04DF5401F3E1993093294D0 /* PBXContainerItemProxy */;
+		};
+		0CDDA173A8411778CA01A59C073816C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = 7543BDB9E56C2F0BB072E38D99608E42 /* SSKeychain */;
+			targetProxy = 556145A1D459839E013390DA08B762FA /* PBXContainerItemProxy */;
+		};
+		0F28FB42A63618D2D584D9B866A784C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = 7543BDB9E56C2F0BB072E38D99608E42 /* SSKeychain */;
+			targetProxy = 1EE770E0AF2B09FC6F4ADEC9BDE21F42 /* PBXContainerItemProxy */;
+		};
+		1AB92855F803D0330DA9EAACB8FBAFDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRYSerialAnimationQueue;
+			target = 005028F4A259C5603C6AFA698F9225D6 /* BRYSerialAnimationQueue */;
+			targetProxy = 50693A92FBBE4562F30C0AF5DAC555FA /* PBXContainerItemProxy */;
+		};
+		2964AAB15438A9B81AA45E54032A763C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+BetterAdditions";
+			target = 116B1BCD19F634218B3D0987EEBBA0F4 /* UIImage+BetterAdditions */;
+			targetProxy = D68A63EAFA0926932CBAD2A062812DAA /* PBXContainerItemProxy */;
+		};
+		2ECAA5F2D2D2FCB0FC44BD524CBAAF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRYSerialAnimationQueue;
+			target = 005028F4A259C5603C6AFA698F9225D6 /* BRYSerialAnimationQueue */;
+			targetProxy = E0433A926DCF6F0C8AAD36933665D310 /* PBXContainerItemProxy */;
+		};
+		76C8E7487C4CA9D6424B48922E2489E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor-Hex";
+			target = C6DCAA6C59F4F6651D6B22A491E8337B /* UIColor-Hex */;
+			targetProxy = 98391788AD4D248EEB2578E72D495705 /* PBXContainerItemProxy */;
+		};
+		9E37634C12DE0AFB113AE9BB570E06D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCAlertView-FCAlertView";
+			target = 1613271357771814C71601D90B787D94 /* FCAlertView-FCAlertView */;
+			targetProxy = 32932EDC3FAA8184B9EDDDBBCA1BCF5D /* PBXContainerItemProxy */;
+		};
+		9F6D810DCA550AAD895432887F595C24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+BetterAdditions";
+			target = 116B1BCD19F634218B3D0987EEBBA0F4 /* UIImage+BetterAdditions */;
+			targetProxy = 7EB7345309D5BB2C3CCF7E63C7FFFD41 /* PBXContainerItemProxy */;
+		};
+		ADA0DF149607305ED8C6856BB054C082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VENTouchLock;
+			target = B7ABA27192B1AD5E94780959A5A35B3D /* VENTouchLock */;
+			targetProxy = F1A4C3DF893B94656957131DFA79310A /* PBXContainerItemProxy */;
+		};
+		BD2DDB56A472A6A1A872112091D30B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCAlertView;
+			target = EF1ABE20DAA23760FBF0359740C1F0B9 /* FCAlertView */;
+			targetProxy = 64C79917ED472A59DC14F32314781986 /* PBXContainerItemProxy */;
+		};
+		FC0F3E84AA78DD617845B383625F13E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSBouncyButton;
+			target = 157C37FDB196CFEC77511B13AF3908C6 /* SSBouncyButton */;
+			targetProxy = F8447E22BD140387DF9163D8613AC4E2 /* PBXContainerItemProxy */;
+		};
+		FE6BDBB37DE9420471BEF3FA01490376 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWTableViewCell;
+			target = C6DBB03A144EDD5520471500FFF355F2 /* SWTableViewCell */;
+			targetProxy = C6461AB4FA3CEED9A7FA73836D94BDD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		089E86F4E6CC940162F868B506FB9280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97CFECA96B6CDF191AB47452AE42E9C /* UIColor-Hex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-Hex/UIColor-Hex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-Hex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor-Hex/UIColor-Hex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIColor_Hex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		131129A802FF243D9965ECC769196DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BDDD0F083498D32AB129522D379748 /* UIImage+BetterAdditions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImage+BetterAdditions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UIImage_BetterAdditions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		157CE91BFE5D1E66141AC3E0A993F249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD48E480564EE1EA1E6F8EB0F2A60551 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CC477903F77CF3DD795347433CB03D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBB99C048496B65ECA91B7FCE2A410F /* Pods-MedViewer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MedViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedViewer/Pods-MedViewer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MedViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45721192616DDB6AAFF30D798550A64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C28158106D6D5D37FB38913F487A0F /* Pods-MedViewerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MedViewerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedViewerTests/Pods-MedViewerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MedViewerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47B85659A2CCFF6E7AF52607BA36D927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1DFAFB71FAF22362BBEDDF37595488 /* SSBouncyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSBouncyButton/SSBouncyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSBouncyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSBouncyButton/SSBouncyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSBouncyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F565CC2C0C633C00BEE51E4E11520ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F724FAC2FFA2FBECF2E0A8835AFC33F /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		598D7A0CF5CAF9BCC409A5840D35C96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BDDD0F083498D32AB129522D379748 /* UIImage+BetterAdditions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIImage+BetterAdditions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIImage+BetterAdditions/UIImage+BetterAdditions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIImage_BetterAdditions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D6C313D5CDC323AFB9E87FDD33BCE09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B3E9830E6DEF17FFF3E16D5D27C3E3 /* VENTouchLock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VENTouchLock/VENTouchLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VENTouchLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VENTouchLock/VENTouchLock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VENTouchLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7373AC054088EA07B64138444BFDADAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F724FAC2FFA2FBECF2E0A8835AFC33F /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CEB3D839D1BDC64F3C6C0E33D021ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED04912CC9D1342ED36FDAFAC50487E /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		858D36144E819B121AE3DFA2A900529F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1DFAFB71FAF22362BBEDDF37595488 /* SSBouncyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSBouncyButton/SSBouncyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSBouncyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSBouncyButton/SSBouncyButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SSBouncyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9079038BA16FB437218FD38FFB622931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5849ACFAB422BBBB2CC74C35292CC49 /* Pods-MedViewerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MedViewerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedViewerUITests/Pods-MedViewerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MedViewerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		930C91F054A138C0B9D260C0437853E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D71103B6D2E83E1AF85F252ADBC5FA /* SSKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSKeychain/SSKeychain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SSKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		938D35BC09B0D2E75E3643A908963AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66088FDB9A544C10B50FDCE343EFDBA /* BRYSerialAnimationQueue.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRYSerialAnimationQueue/BRYSerialAnimationQueue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRYSerialAnimationQueue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRYSerialAnimationQueue/BRYSerialAnimationQueue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BRYSerialAnimationQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B7DAD1562A7D9B7EBB846609F2DF892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D71103B6D2E83E1AF85F252ADBC5FA /* SSKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSKeychain/SSKeychain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3E170B58D8C040F807FF2AD0B86767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D34702EF1BABD79CF2C279AF196489 /* Pods-MedViewer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MedViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedViewer/Pods-MedViewer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MedViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5DE225DF425CD1BA9D9E2359387A1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD48E480564EE1EA1E6F8EB0F2A60551 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6D07E3AFCBFA75546AF03E84F673E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED04912CC9D1342ED36FDAFAC50487E /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AA818FDD64419DDA8AC702DB37CC4822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7FCF223615C7B1DE89B1663E26B676 /* Pods-MedViewerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MedViewerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedViewerTests/Pods-MedViewerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MedViewerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B85BBE697C1D6258EA4388767722C433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B3E9830E6DEF17FFF3E16D5D27C3E3 /* VENTouchLock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VENTouchLock/VENTouchLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VENTouchLock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VENTouchLock/VENTouchLock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VENTouchLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD3FDECD778D4D5C09DAB5DA98DD567D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED04912CC9D1342ED36FDAFAC50487E /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCAlertView/FCAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA6B7CAB59D9C93002AD323435625B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66088FDB9A544C10B50FDCE343EFDBA /* BRYSerialAnimationQueue.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BRYSerialAnimationQueue/BRYSerialAnimationQueue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BRYSerialAnimationQueue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BRYSerialAnimationQueue/BRYSerialAnimationQueue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BRYSerialAnimationQueue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC6AA77B5E82F139D627B33E44FD2821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF759F8753AC64D8D68BBF83FE51106 /* Pods-MedViewerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MedViewerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedViewerUITests/Pods-MedViewerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MedViewerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F315F8AB6C854C5891199BF0DBC19060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97CFECA96B6CDF191AB47452AE42E9C /* UIColor-Hex.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-Hex/UIColor-Hex-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-Hex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor-Hex/UIColor-Hex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_Hex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA99A4B3874D431F51579391A36C51F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED04912CC9D1342ED36FDAFAC50487E /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FCAlertView/FCAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C4C37855C8687E93478599A229C8339 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5DE225DF425CD1BA9D9E2359387A1A1 /* Debug */,
+				157CE91BFE5D1E66141AC3E0A993F249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3A86864605C5E08855DA684CF41069 /* Build configuration list for PBXNativeTarget "UIImage+BetterAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598D7A0CF5CAF9BCC409A5840D35C96B /* Debug */,
+				131129A802FF243D9965ECC769196DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD997BBF1A283D63BD0D1733E344E7B /* Build configuration list for PBXNativeTarget "Pods-MedViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45721192616DDB6AAFF30D798550A64F /* Debug */,
+				AA818FDD64419DDA8AC702DB37CC4822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E82A1DE997D99C0DF2CECEF19D52746 /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D07E3AFCBFA75546AF03E84F673E17 /* Debug */,
+				7CEB3D839D1BDC64F3C6C0E33D021ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5424C02B4A339924F58B1B2F2CB7BCF3 /* Build configuration list for PBXNativeTarget "SSBouncyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B85659A2CCFF6E7AF52607BA36D927 /* Debug */,
+				858D36144E819B121AE3DFA2A900529F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBFFD9F01E4E77DFF7D84B02890DF86 /* Build configuration list for PBXNativeTarget "Pods-MedViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9079038BA16FB437218FD38FFB622931 /* Debug */,
+				EC6AA77B5E82F139D627B33E44FD2821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6280EFF04647E056B531E565A54792B1 /* Build configuration list for PBXNativeTarget "SSKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7DAD1562A7D9B7EBB846609F2DF892 /* Debug */,
+				930C91F054A138C0B9D260C0437853E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A151872634200E8C3135DECF30E50D /* Build configuration list for PBXNativeTarget "VENTouchLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85BBE697C1D6258EA4388767722C433 /* Debug */,
+				6D6C313D5CDC323AFB9E87FDD33BCE09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B19F7665A631A3E66FDDEAB6BBC76E /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7373AC054088EA07B64138444BFDADAF /* Debug */,
+				4F565CC2C0C633C00BEE51E4E11520ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA6C0585D1B3396EA76721ED9ABF898 /* Build configuration list for PBXNativeTarget "FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3FDECD778D4D5C09DAB5DA98DD567D /* Debug */,
+				FA99A4B3874D431F51579391A36C51F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87076A783EEA8733C5C7BF5B73842725 /* Build configuration list for PBXNativeTarget "BRYSerialAnimationQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B7CAB59D9C93002AD323435625B4A /* Debug */,
+				938D35BC09B0D2E75E3643A908963AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E513CCA17B5B663703C8432072B055C6 /* Build configuration list for PBXNativeTarget "UIColor-Hex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F315F8AB6C854C5891199BF0DBC19060 /* Debug */,
+				089E86F4E6CC940162F868B506FB9280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F96811B335D040EA7E404AF4A0B29818 /* Build configuration list for PBXNativeTarget "Pods-MedViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E170B58D8C040F807FF2AD0B86767C /* Debug */,
+				3CC477903F77CF3DD795347433CB03D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

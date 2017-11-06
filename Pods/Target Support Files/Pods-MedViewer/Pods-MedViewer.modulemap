@@ -1,0 +1,6 @@
+framework module Pods_MedViewer {
+  umbrella header "Pods-MedViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}
